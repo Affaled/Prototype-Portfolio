@@ -30,7 +30,6 @@
   font-size: 16px;
   font-weight: 500;
   margin-right: 30px;
-  color: #e4e4e4;
   cursor: pointer;
 }
 .listBar li::after {
@@ -56,7 +55,6 @@
   gap: 10px;
 }
 .nameBar h1 {
-  color: #e4e4e4;
   font-size: 24px;
   font-weight: 400;
 }
