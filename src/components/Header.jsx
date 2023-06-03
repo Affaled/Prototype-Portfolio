@@ -4,8 +4,13 @@ import "../assets/styles/Header.css";
 
 export default function Header() {
   return (
-    <header className="header">
-      <nav>Header</nav>
+    <header>
+      <nav className="nav-bar">
+        <Link to="/">Home</Link>
+        <Link to="/">About me</Link>
+        <Link to="/">Projects</Link>
+        <Link to="/">Contact</Link>
+      </nav>
     </header>
   );
 }
