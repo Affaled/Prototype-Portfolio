@@ -1,3 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap');
 @import "../utils/functions";
 @import "../utils/variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}

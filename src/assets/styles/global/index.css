@@ -1,1 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap");/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@1;100;200;300;400;500;600;700;800;900;1000&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Ysabeau Office", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=index.css.map */
