@@ -1,0 +1,19 @@
+@import "../utils/functions";
+@import "../utils/variables";
+
+header {
+  @include flex(row, space-between, center);
+  height: 55px;
+  width: 1080px;
+  margin: 0 auto;
+  .logo {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: $title-font;
+    line-height: 1em;
+  }
+  .navList {
+    @include flex(row, space-between, center);
+    gap: 21px;
+  }
+}
