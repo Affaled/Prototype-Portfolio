@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montez&display=swap");
 :root {
   height: 100vh;
   width: 100vw;
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
   background: #d9c7b8;
   color: #05090d;
 }
@@ -12,4 +13,39 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  max-width: 1440px;
+  margin: auto;
+}
+.header__logo {
+  font-family: "Montez", serif;
+  color: #405952;
+  font-size: 2.5rem;
+}
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 3rem;
+}
+.header__container--navList {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  list-style: none;
+  gap: 3rem;
+}
+.header__container--email {
+  background-color: #8c7161;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
 }/*# sourceMappingURL=index.css.map */
