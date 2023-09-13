@@ -1,0 +1,35 @@
+.header {
+  @include flex(row, space-between, center);
+
+  height: 4rem;
+  max-width: 1440px;
+  margin: auto;
+
+  &__logo {
+    font-family: $title-font;
+    color: $main-color;
+
+    font-size: 2.5rem;
+  }
+
+  &__container {
+    @include flex(row, start, center);
+
+    gap: 3rem;
+
+    &--nav {
+      &List {
+        @include flex(row, start, center);
+
+        list-style: none;
+        gap: 3rem;
+      }
+    }
+
+    &--email {
+      background-color: $auxiliar-color;
+      padding: 0.8rem 1rem;
+      border-radius: 0.5rem;
+    }
+  }
+}
