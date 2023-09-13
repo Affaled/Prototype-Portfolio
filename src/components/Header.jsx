@@ -7,9 +7,9 @@ export default function Header() {
       <div className="header__container">
         <nav className="header__container--nav">
           <ul className="header__container--navList">
-            <li>ABOUT</li>
-            <li>PROJECTS</li>
-            <li>CONTACT</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact</li>
           </ul>
         </nav>
         <p className="header__container--email">affaledl@gmail.com</p>
