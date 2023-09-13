@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montez&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Lato:wght@100;300;400;700;900&display=swap");
 :root {
   height: 100vh;
   width: 100vw;
@@ -25,9 +25,9 @@
   margin: auto;
 }
 .header__logo {
-  font-family: "Montez", serif;
+  font-family: "Cormorant Upright", serif;
   color: #405952;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 .header__container {
   display: flex;
