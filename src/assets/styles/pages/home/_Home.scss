@@ -3,29 +3,25 @@
   position: absolute;
   top: 0;
   left: 0;
-
   height: 100%;
   width: 100vw;
 
   &__banner {
     @include flex(column, end, center);
-
     height: 100vh;
 
     &-title {
       @include flex(column, start, center);
-
-      padding: 0 0 52px;
+      padding: 0 0 3.25rem;
 
       h1 {
         font-family: $secondary-font;
         font-size: 80px;
-
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
       }
 
       p {
-        font-size: 13px;
+        font-size: $min-font-size;
         font-weight: 600;
         letter-spacing: 2px;
       }
