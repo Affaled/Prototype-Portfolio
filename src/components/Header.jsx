@@ -22,10 +22,6 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <div className="header__lang">
-        <button>PT</button>
-        <button>EN</button>
-      </div>
     </header>
   );
 }
