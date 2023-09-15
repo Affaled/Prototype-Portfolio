@@ -1,11 +1,10 @@
 .header {
   @include flex(row, space-between, center);
-  position: absolute;
   top: 0;
   left: 0;
 
-  width: 100vw;
-  padding: 8px calc((100vw - 1280px) / 2) 0;
+  width: 1280px;
+  margin: 8px auto 0;
 
   &__logo {
     font-family: $secondary-font;
