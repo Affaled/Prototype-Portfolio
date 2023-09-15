@@ -1,5 +1,9 @@
 import React from "react";
 
 export default function Home() {
-  return <div>Home</div>;
+  return (
+    <main className="home">
+      <section className="home__banner">Section -1</section>
+    </main>
+  );
 }
