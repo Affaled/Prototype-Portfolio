@@ -7,7 +7,7 @@ export default function Header() {
         <h1>Affaled</h1>
       </div>
       <nav className="header__nav">
-        <ul>
+        <ul className="header__nav-list">
           <li>
             <a href="#">HOME</a>
           </li>

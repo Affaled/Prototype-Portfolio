@@ -1,0 +1,37 @@
+.header {
+  @include flex(row, space-between, center);
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+  padding: 8px calc((100vw - 1280px) / 2) 0;
+
+  &__logo {
+    font-family: $secondary-font;
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  &__nav {
+    display: flex;
+
+    &-list {
+      @include flex(row, start, center);
+
+      height: 70px;
+      gap: 40px;
+
+      list-style: none;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+
+  &__socials {
+    display: flex;
+
+    font-size: 20px;
+    gap: 32px;
+  }
+}
