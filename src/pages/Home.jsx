@@ -9,6 +9,7 @@ export default function Home() {
           <p>SCROLL DOWN</p>
         </div>
       </section>
+      <section className="home__about">about</section>
     </main>
   );
 }

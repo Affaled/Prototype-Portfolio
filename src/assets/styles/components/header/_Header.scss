@@ -3,18 +3,19 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 100;
   width: 1280px;
-  margin: 0.5rem calc((100vw - 1280px) / 2) 0;
+  margin: 0.5rem calc(($max-width - 1280px) / 2) 0;
+  z-index: 100;
 
   &__logo {
     font-family: $secondary-font;
-    font-size: $min-font-size;
+    font-size: $max-font-size;
     font-weight: 800;
 
     &:hover {
       cursor: pointer;
       color: $primary-color;
+
       transition: 0.2s;
     }
   }
@@ -24,17 +25,21 @@
 
     &-list {
       @include flex(row, start, center);
-
       height: 4.5rem;
       gap: 2.5rem;
-      list-style: none;
+
       font-size: $min-font-size;
       font-weight: 600;
 
+      list-style: none;
+
       &Item {
+        text-transform: uppercase;
+
         &:hover {
           cursor: pointer;
           color: $primary-color;
+
           transition: 0.2s;
         }
       }
