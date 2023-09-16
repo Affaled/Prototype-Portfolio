@@ -8,16 +8,16 @@ export default function Header() {
       </div>
       <nav className="header__nav">
         <ul className="header__nav-list">
-          <li>
+          <li className="header__nav-listItem">
             <a href="#">HOME</a>
           </li>
-          <li>
+          <li className="header__nav-listItem">
             <a href="#">ABOUT</a>
           </li>
-          <li>
+          <li className="header__nav-listItem">
             <a href="#">PROJECTS</a>
           </li>
-          <li>
+          <li className="header__nav-listItem">
             <a href="#">CONTACT</a>
           </li>
         </ul>

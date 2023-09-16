@@ -24,13 +24,22 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
   width: 1280px;
-  margin: 0.5rem auto 0;
+  margin: 0.5rem calc((100vw - 1280px) / 2) 0;
 }
 .header__logo {
   font-family: "Cinzel", serif;
   font-size: 13px;
   font-weight: 800;
+}
+.header__logo:hover {
+  cursor: pointer;
+  color: #e4cb86;
+  transition: 0.2s;
 }
 .header__nav {
   display: flex;
@@ -46,10 +55,20 @@ a {
   font-size: 13px;
   font-weight: 600;
 }
+.header__nav-listItem:hover {
+  cursor: pointer;
+  color: #e4cb86;
+  transition: 0.2s;
+}
 .header__socials {
   display: flex;
   font-size: 21px;
   gap: 2rem;
+}
+.header__socials a:hover {
+  cursor: pointer;
+  color: #e4cb86;
+  transition: 0.2s;
 }
 
 .home {
@@ -57,9 +76,7 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
+  z-index: 1;
   height: 100%;
   width: 100vw;
 }
