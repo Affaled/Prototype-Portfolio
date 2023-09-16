@@ -6,10 +6,12 @@ export default function Home() {
       <section className="home__banner">
         <div className="home__banner-title">
           <h1>Front-End Developer</h1>
-          <p>SCROLL DOWN</p>
+          <p>Scroll down</p>
         </div>
       </section>
-      <section className="home__about">about</section>
+      <section className="home__about">About</section>
+      <section className="home__projects">Projects</section>
+      <section className="home__contact">Contact</section>
     </main>
   );
 }

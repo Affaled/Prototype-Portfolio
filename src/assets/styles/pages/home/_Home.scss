@@ -22,13 +22,33 @@
 
       p {
         font-size: $min-font-size;
+        text-transform: uppercase;
         font-weight: 600;
         letter-spacing: 2px;
+
+        &:hover {
+          cursor: pointer;
+
+          color: $primary-color;
+          transition: 0.2s;
+        }
       }
     }
   }
 
   &__about {
+    @include flex(row, center, start);
+    width: 1280px;
+    padding: 9rem 0;
+  }
+
+  &__projects {
+    @include flex(row, center, start);
+    width: 1280px;
+    padding: 9rem 0;
+  }
+
+  &__contact {
     @include flex(row, center, start);
     width: 1280px;
     padding: 9rem 0;
