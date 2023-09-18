@@ -1,0 +1,14 @@
+.about {
+  @include flex(column, start, center);
+  width: $max-width;
+  max-width: $max-width;
+
+  padding: 9rem 0 0;
+
+  &__title {
+    font-family: $secondary-font;
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+}
