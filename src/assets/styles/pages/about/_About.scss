@@ -11,4 +11,38 @@
     font-weight: 400;
     text-transform: capitalize;
   }
+
+  &__biography {
+    @include flex(row, start, center);
+    width: min-content;
+    // max-width: calc(100vw - 6px);
+    padding: 9rem 0 0;
+    margin: 0 auto;
+    gap: 5rem;
+
+    img {
+      flex-grow: 1;
+      width: 30rem;
+      min-width: 30rem;
+      min-height: 399px;
+
+      background-color: $primary-color;
+      color: $background-color;
+      border-radius: 0.5rem;
+    }
+
+    &-title {
+      font-family: $secondary-font;
+      font-size: 40px;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+
+    &-text {
+      @include flex(column, start, start);
+      max-width: 35rem;
+      min-width: 35rem;
+      gap: 1.25rem;
+    }
+  }
 }
