@@ -142,7 +142,7 @@ a {
   justify-content: center;
   align-items: start;
   width: 1280px;
-  padding: 9rem 0;
+  padding: 9rem 0 0;
 }
 .home__projects {
   display: flex;
@@ -150,7 +150,7 @@ a {
   justify-content: center;
   align-items: start;
   width: 1280px;
-  padding: 9rem 0;
+  padding: 9rem 0 0;
 }
 .home__contact {
   display: flex;
@@ -158,7 +158,7 @@ a {
   justify-content: center;
   align-items: start;
   width: 1280px;
-  padding: 9rem 0;
+  padding: 9rem 0 0;
 }
 
 .about {
