@@ -5,6 +5,14 @@
 
   padding: 9rem 0 0;
 
+  h3 {
+    font-family: $secondary-font;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 1.25rem;
+  }
+
   &__title {
     font-family: $secondary-font;
     font-size: 80px;
@@ -13,32 +21,25 @@
   }
 
   &__personal {
-    @include flex(row, space-between, center);
-    width: 1024px;
+    @include flex(row, space-between, start);
+    width: 1200px;
     margin: 9rem auto 0;
 
     img {
       flex-grow: 1;
-      width: 30rem;
-      max-width: 30rem;
-      min-height: 399px;
+      width: 35rem;
+      max-width: 35rem;
+      min-height: 419px;
 
       background-color: $primary-color;
       color: $background-color;
       border-radius: 0.5rem;
     }
 
-    &-title {
-      font-family: $secondary-font;
-      font-size: 40px;
-      font-weight: 400;
-      text-transform: capitalize;
-    }
-
     &-text {
       @include flex(column, start, start);
-      max-width: 30rem;
-      min-width: 30rem;
+      max-width: 35rem;
+      min-width: 35rem;
       gap: 1.25rem;
     }
   }
@@ -46,7 +47,8 @@
   &__biography {
     @include flex(column, start, start);
     margin: 9rem 0 0;
-    max-width: 1024px;
+    max-width: 40rem;
+    padding: 0 5rem 0 0;
     gap: 1.25rem;
   }
 }

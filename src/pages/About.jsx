@@ -7,7 +7,7 @@ export default function About() {
       <section className="about__personal">
         <img src="#" alt="Lucas Photo" />
         <section className="about__personal-text">
-          <h3 className="about__personal-title">Front-end developer.</h3>
+          <h3>Front-end developer.</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
             qui laborum omnis nobis aliquam! Ipsam rem illo cupiditate? Rem
@@ -32,6 +32,7 @@ export default function About() {
         </section>
       </section>
       <section className="about__biography">
+        <h3>Getting to Know Me.</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis,
           officia cum eligendi tempore consectetur quis animi, autem dolorem

@@ -47,8 +47,8 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1280px;
-  margin: 0.5rem calc((100vw - 6px - 1280px) / 2) 0;
+  width: 1200px;
+  margin: 0.5rem calc((100vw - 6px - 1200px) / 2) 0;
   z-index: 100;
 }
 .header__logo {
@@ -110,7 +110,7 @@ a {
   justify-content: end;
   align-items: center;
   height: 100vh;
-  width: 1280px;
+  width: 1200px;
 }
 .home__banner-title {
   display: flex;
@@ -141,7 +141,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: start;
-  width: 1280px;
+  width: 1200px;
   margin: 9rem 0 0;
 }
 .home__projects {
@@ -149,7 +149,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: start;
-  width: 1280px;
+  width: 1200px;
   margin: 9rem 0 0;
 }
 .home__contact {
@@ -157,7 +157,7 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: start;
-  width: 1280px;
+  width: 1200px;
   margin: 9rem 0 0;
 }
 
@@ -170,6 +170,13 @@ a {
   max-width: calc(100vw - 6px);
   padding: 9rem 0 0;
 }
+.about h3 {
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 1.25rem;
+}
 .about__title {
   font-family: "Cinzel", serif;
   font-size: 80px;
@@ -180,32 +187,26 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  width: 1024px;
+  align-items: start;
+  width: 1200px;
   margin: 9rem auto 0;
 }
 .about__personal img {
   flex-grow: 1;
-  width: 30rem;
-  max-width: 30rem;
-  min-height: 399px;
+  width: 35rem;
+  max-width: 35rem;
+  min-height: 419px;
   background-color: #e4cb86;
   color: #000;
   border-radius: 0.5rem;
-}
-.about__personal-title {
-  font-family: "Cinzel", serif;
-  font-size: 40px;
-  font-weight: 400;
-  text-transform: capitalize;
 }
 .about__personal-text {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  max-width: 30rem;
-  min-width: 30rem;
+  max-width: 35rem;
+  min-width: 35rem;
   gap: 1.25rem;
 }
 .about__biography {
@@ -214,6 +215,7 @@ a {
   justify-content: start;
   align-items: start;
   margin: 9rem 0 0;
-  max-width: 1024px;
+  max-width: 40rem;
+  padding: 0 5rem 0 0;
   gap: 1.25rem;
 }/*# sourceMappingURL=index.css.map */

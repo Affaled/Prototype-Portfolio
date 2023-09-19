@@ -8,7 +8,7 @@
   &__banner {
     @include flex(column, end, center);
     height: 100vh;
-    width: 1280px;
+    width: 1200px;
 
     &-title {
       @include flex(column, start, center);
@@ -39,19 +39,19 @@
 
   &__about {
     @include flex(row, center, start);
-    width: 1280px;
+    width: 1200px;
     margin: 9rem 0 0;
   }
 
   &__projects {
     @include flex(row, center, start);
-    width: 1280px;
+    width: 1200px;
     margin: 9rem 0 0;
   }
 
   &__contact {
     @include flex(row, center, start);
-    width: 1280px;
+    width: 1200px;
     margin: 9rem 0 0;
   }
 }
