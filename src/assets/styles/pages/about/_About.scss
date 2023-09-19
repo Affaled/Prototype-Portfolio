@@ -10,7 +10,7 @@
     font-size: 40px;
     font-weight: 400;
     text-transform: capitalize;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
   }
 
   &__title {
@@ -40,7 +40,7 @@
       @include flex(column, start, start);
       max-width: 35rem;
       min-width: 35rem;
-      gap: 1.25rem;
+      gap: 1rem;
     }
   }
 
@@ -49,6 +49,24 @@
     margin: 9rem 0 0;
     max-width: 40rem;
     padding: 0 5rem 0 0;
-    gap: 1.25rem;
+    gap: 1rem;
+  }
+
+  &__skills {
+    @include flex(column, start, start);
+    margin: 9rem 0 0;
+    width: 40rem;
+    max-width: 40rem;
+    gap: 1rem;
+
+    &-container {
+      @include flex(row, start, start);
+      flex-wrap: wrap;
+      gap: 1.5rem;
+
+      img {
+        width: 3.5rem;
+      }
+    }
   }
 }

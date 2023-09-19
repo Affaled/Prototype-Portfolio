@@ -175,7 +175,7 @@ a {
   font-size: 40px;
   font-weight: 400;
   text-transform: capitalize;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
 }
 .about__title {
   font-family: "Cinzel", serif;
@@ -207,7 +207,7 @@ a {
   align-items: start;
   max-width: 35rem;
   min-width: 35rem;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 .about__biography {
   display: flex;
@@ -217,5 +217,26 @@ a {
   margin: 9rem 0 0;
   max-width: 40rem;
   padding: 0 5rem 0 0;
-  gap: 1.25rem;
+  gap: 1rem;
+}
+.about__skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin: 9rem 0 0;
+  width: 40rem;
+  max-width: 40rem;
+  gap: 1rem;
+}
+.about__skills-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.about__skills-container img {
+  width: 3.5rem;
 }/*# sourceMappingURL=index.css.map */

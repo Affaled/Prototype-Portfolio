@@ -1,4 +1,9 @@
 import React from "react";
+import html5 from "../assets/svg/html5.svg";
+import css3 from "../assets/svg/css3.svg";
+import js from "../assets/svg/js.svg";
+import scss from "../assets/svg/scss.svg";
+import git from "../assets/svg/git.svg";
 
 export default function About() {
   return (
@@ -54,6 +59,16 @@ export default function About() {
           quidem ducimus atque corporis debitis praesentium quisquam dolorum,
           culpa optio. Totam, neque.
         </p>
+      </section>
+      <section className="about__skills">
+        <h3>My Skills.</h3>
+        <div className="about__skills-container">
+          <img src={git} alt="Git" />
+          <img src={html5} alt="HTML5" />
+          <img src={css3} alt="CSS3" />
+          <img src={scss} alt="SCSS" />
+          <img src={js} alt="JavaScript" />
+        </div>
       </section>
     </main>
   );
