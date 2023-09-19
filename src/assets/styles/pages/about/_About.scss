@@ -13,16 +13,14 @@
   }
 
   &__personal {
-    @include flex(row, start, center);
-    width: min-content;
-    padding: 9rem 0 0;
-    margin: 0 auto;
-    gap: 5rem;
+    @include flex(row, space-between, center);
+    width: 1024px;
+    margin: 9rem auto 0;
 
     img {
       flex-grow: 1;
       width: 30rem;
-      min-width: 30rem;
+      max-width: 30rem;
       min-height: 399px;
 
       background-color: $primary-color;
@@ -39,15 +37,15 @@
 
     &-text {
       @include flex(column, start, start);
-      max-width: 35rem;
-      min-width: 35rem;
+      max-width: 30rem;
+      min-width: 30rem;
       gap: 1.25rem;
     }
   }
 
   &__biography {
     @include flex(column, start, start);
-    padding: 6rem 0 0;
+    margin: 9rem 0 0;
     max-width: 1024px;
     gap: 1.25rem;
   }

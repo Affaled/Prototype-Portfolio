@@ -142,7 +142,7 @@ a {
   justify-content: center;
   align-items: start;
   width: 1280px;
-  padding: 9rem 0 0;
+  margin: 9rem 0 0;
 }
 .home__projects {
   display: flex;
@@ -150,7 +150,7 @@ a {
   justify-content: center;
   align-items: start;
   width: 1280px;
-  padding: 9rem 0 0;
+  margin: 9rem 0 0;
 }
 .home__contact {
   display: flex;
@@ -158,7 +158,7 @@ a {
   justify-content: center;
   align-items: start;
   width: 1280px;
-  padding: 9rem 0 0;
+  margin: 9rem 0 0;
 }
 
 .about {
@@ -179,18 +179,15 @@ a {
 .about__personal {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
-  width: -moz-min-content;
-  width: min-content;
-  padding: 9rem 0 0;
-  margin: 0 auto;
-  gap: 5rem;
+  width: 1024px;
+  margin: 9rem auto 0;
 }
 .about__personal img {
   flex-grow: 1;
   width: 30rem;
-  min-width: 30rem;
+  max-width: 30rem;
   min-height: 399px;
   background-color: #e4cb86;
   color: #000;
@@ -207,8 +204,8 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  max-width: 35rem;
-  min-width: 35rem;
+  max-width: 30rem;
+  min-width: 30rem;
   gap: 1.25rem;
 }
 .about__biography {
@@ -216,7 +213,7 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  padding: 6rem 0 0;
+  margin: 9rem 0 0;
   max-width: 1024px;
   gap: 1.25rem;
 }/*# sourceMappingURL=index.css.map */
