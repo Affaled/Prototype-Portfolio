@@ -176,7 +176,7 @@ a {
   font-weight: 400;
   text-transform: capitalize;
 }
-.about__biography {
+.about__personal {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -187,7 +187,7 @@ a {
   margin: 0 auto;
   gap: 5rem;
 }
-.about__biography img {
+.about__personal img {
   flex-grow: 1;
   width: 30rem;
   min-width: 30rem;
@@ -196,18 +196,27 @@ a {
   color: #000;
   border-radius: 0.5rem;
 }
-.about__biography-title {
+.about__personal-title {
   font-family: "Cinzel", serif;
   font-size: 40px;
   font-weight: 400;
   text-transform: capitalize;
 }
-.about__biography-text {
+.about__personal-text {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
   max-width: 35rem;
   min-width: 35rem;
+  gap: 1.25rem;
+}
+.about__biography {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 6rem 0 0;
+  max-width: 1024px;
   gap: 1.25rem;
 }/*# sourceMappingURL=index.css.map */

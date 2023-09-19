@@ -40,18 +40,18 @@
   &__about {
     @include flex(row, center, start);
     width: 1280px;
-    padding: 9rem 0;
+    padding: 9rem 0 0;
   }
 
   &__projects {
     @include flex(row, center, start);
     width: 1280px;
-    padding: 9rem 0;
+    padding: 9rem 0 0;
   }
 
   &__contact {
     @include flex(row, center, start);
     width: 1280px;
-    padding: 9rem 0;
+    padding: 9rem 0 0;
   }
 }
