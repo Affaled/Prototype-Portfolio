@@ -7,6 +7,7 @@ export default function Projects() {
       <h2 className="projects__title">Projects</h2>
       <section className="projects__content">
         <ProjectItem />
+        <ProjectItem />
       </section>
     </main>
   );

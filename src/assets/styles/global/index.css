@@ -192,7 +192,6 @@ a {
   margin: 9rem auto 0;
 }
 .about__personal img {
-  flex-grow: 1;
   width: 35rem;
   max-width: 35rem;
   min-height: 419px;
@@ -255,4 +254,88 @@ a {
   font-size: 80px;
   font-weight: 400;
   text-transform: capitalize;
+  margin-bottom: 9rem;
+}
+.projects__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 4rem;
+}
+
+.project__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  width: 1200px;
+}
+.project__item img {
+  width: 31.5rem;
+  max-width: 31.5rem;
+  height: 21rem;
+  max-height: 21rem;
+  background-color: #e4cb86;
+  color: #000;
+  border-radius: 0.5rem;
+}
+.project__item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  height: 21rem;
+  max-width: 37.5rem;
+  min-width: 37.5rem;
+  padding: 1rem 0 2rem 0;
+}
+.project__item-textProgress {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #e4cb86;
+  text-transform: capitalize;
+}
+.project__item-text h3 {
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.project__item-text p {
+  line-height: 1.5rem;
+}
+.project__item-textMore {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  width: -moz-max-content;
+  width: max-content;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #e4cb86;
+  gap: 1rem;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.project__item-textMore svg {
+  height: 1rem;
+  width: -moz-min-content;
+  width: min-content;
+}
+.project__item-textMore svg path {
+  stroke: #e2e2e2;
+}
+.project__item-textMore:hover {
+  cursor: pointer;
+  color: #e4cb86;
+  transition: 0.2s;
+}
+.project__item-textMore:hover svg path {
+  stroke: #e4cb86;
 }/*# sourceMappingURL=index.css.map */
