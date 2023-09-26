@@ -2,7 +2,6 @@
   @include flex(column, start, center);
   width: $max-width;
   max-width: $max-width;
-
   padding: 9rem 0 0;
 
   h3 {
@@ -29,7 +28,6 @@
       width: 35rem;
       max-width: 35rem;
       min-height: 419px;
-
       background-color: $primary-color;
       color: $background-color;
       border-radius: 0.5rem;

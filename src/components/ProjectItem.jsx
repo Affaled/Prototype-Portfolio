@@ -7,7 +7,6 @@ export default function ProjectItem() {
       <img src="#" alt="Project Photo" />
       <div className="project__item-text">
         <div>
-          <span className="project__item-textProgress">In progress</span>
           <h3>Title</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque
@@ -15,7 +14,7 @@ export default function ProjectItem() {
             voluptatem ab iusto nam, culpa esse eligendi ea sapiente? Eaque.
           </p>
         </div>
-        <div className="project__item-textMore">
+        <div className="project__item-text-more">
           Learn more
           <svg
             viewBox="0 0 24 24"
