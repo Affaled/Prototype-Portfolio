@@ -43,25 +43,23 @@ export default function About() {
       <section className="about__biography">
         <h3>Getting to Know Me.</h3>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis,
-          officia cum eligendi tempore consectetur quis animi, autem dolorem
-          quidem ducimus atque corporis debitis praesentium quisquam dolorum,
-          culpa optio. Totam, neque.
+          My name is Lucas, and at the age of 19, I'm a programmer. What
+          captivates me in this field is the ability to create, to breathe life
+          into my ideas through code. In my personal life, I split my focus
+          between reading, drawing, studies, and video games.
         </p>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita
-          cumque laborum non error molestiae. Id cupiditate, necessitatibus
-          ipsam laborum, earum voluptatibus dolorum inventore ea unde quam ullam
-          molestiae maiores fugit! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Libero amet vel voluptates neque culpa!
-          Necessitatibus voluptates officia eligendi illo quasi exercitationem
-          fuga, cum quidem voluptatibus rerum repellendus ea, quia consequuntur.
+          I love sports like Volleyball, Basketball, and Boxing, which inspire
+          me with their energy and strategy. My studies cover various areas,
+          from drawing, games, and mythologies to programming and mathematics.
+          Additionally, I have the habit of researching any topic that piques my
+          curiosity.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
-          officia cum eligendi tempore consectetur quis animi, autem dolorem
-          quidem ducimus atque corporis debitis praesentium quisquam dolorum,
-          culpa optio. Totam, neque.
+          Music is a constant soundtrack in my life, accompanying me in all
+          activities. Whether in my mornings and afternoons, dedicated to work
+          and studies, or in the evenings and late nights, moments for leisure
+          where I usually unwind.
         </p>
       </section>
       <section className="about__skills">
