@@ -1,11 +1,4 @@
-import React from "react";
-import html5 from "../assets/svg/html5.svg";
-import css3 from "../assets/svg/css3.svg";
-import js from "../assets/svg/js.svg";
-import scss from "../assets/svg/scss.svg";
-import git from "../assets/svg/git.svg";
-import reactjs from "../assets/svg/reactjs.svg";
-import angular from "../assets/svg/angular.svg";
+import Skills from "../skills";
 
 export default function About() {
   return (
@@ -65,13 +58,13 @@ export default function About() {
       <section className="about__skills">
         <h3>My Skills.</h3>
         <div className="about__skills-container">
-          <img src={git} alt="Git" />
-          <img src={html5} alt="HTML5" />
-          <img src={css3} alt="CSS3" />
-          <img src={scss} alt="SCSS" />
-          <img src={js} alt="JavaScript" />
-          <img src={reactjs} alt="ReactJS" />
-          <img src={angular} alt="Angular" />
+          <img src={Skills.git} alt="Git" />
+          <img src={Skills.html5} alt="HTML5" />
+          <img src={Skills.css3} alt="CSS3" />
+          <img src={Skills.scss} alt="SCSS" />
+          <img src={Skills.js} alt="JavaScript" />
+          <img src={Skills.reactjs} alt="ReactJS" />
+          <img src={Skills.angular} alt="Angular" />
         </div>
       </section>
     </main>
