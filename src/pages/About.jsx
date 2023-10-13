@@ -11,7 +11,7 @@ export default function About() {
   return (
     <main className="about">
       <h2 className="about__title">About me</h2>
-      <section className="about__personal">
+      <div className="about__personal">
         <img src="#" alt="Lucas Photo" />
         <section className="about__personal-text">
           <h3>Front-end developer.</h3>
@@ -36,10 +36,10 @@ export default function About() {
             JavaScript. Furthermore, I am broadening my horizons to explore
             back-end development, delving into robust technologies like Java and
             PHP to enhance my skills and be capable of creating complete and
-            integrated systems."
+            integrated systems.
           </p>
         </section>
-      </section>
+      </div>
       <section className="about__biography">
         <h3>Getting to Know Me.</h3>
         <p>
