@@ -1,5 +1,4 @@
 import React from "react";
-import arrow from "../assets/svg/arrow.svg";
 
 export default function ProjectItem() {
   return (
