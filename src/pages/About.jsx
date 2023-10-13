@@ -1,4 +1,4 @@
-import Skills from "../skills";
+import Svgs from "../svgs";
 
 export default function About() {
   return (
@@ -58,13 +58,13 @@ export default function About() {
       <section className="about__skills">
         <h3>My Skills.</h3>
         <div className="about__skills-container">
-          <img src={Skills.git} alt="Git" />
-          <img src={Skills.html5} alt="HTML5" />
-          <img src={Skills.css3} alt="CSS3" />
-          <img src={Skills.scss} alt="SCSS" />
-          <img src={Skills.js} alt="JavaScript" />
-          <img src={Skills.reactjs} alt="ReactJS" />
-          <img src={Skills.angular} alt="Angular" />
+          <img src={Svgs.git} alt="Git" />
+          <img src={Svgs.html5} alt="HTML5" />
+          <img src={Svgs.css3} alt="CSS3" />
+          <img src={Svgs.scss} alt="SCSS" />
+          <img src={Svgs.js} alt="JavaScript" />
+          <img src={Svgs.reactjs} alt="ReactJS" />
+          <img src={Svgs.angular} alt="Angular" />
         </div>
       </section>
     </main>

@@ -6,8 +6,9 @@ import scss from "./assets/svg/scss.svg";
 import git from "./assets/svg/git.svg";
 import reactjs from "./assets/svg/reactjs.svg";
 import angular from "./assets/svg/angular.svg";
+import arrow from "./assets/svg/arrow.svg";
 
-const skills = {
+const svgs = {
   html5,
   css3,
   js,
@@ -17,4 +18,4 @@ const skills = {
   angular,
 };
 
-export default skills;
+export default svgs;
