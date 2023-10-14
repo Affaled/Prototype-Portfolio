@@ -18,7 +18,7 @@
     text-transform: capitalize;
   }
 
-  &__personal {
+  &__professional {
     @include flex(row, space-between, start);
     width: 1200px;
     margin: 9rem auto 0;
@@ -40,7 +40,7 @@
     }
   }
 
-  &__biography {
+  &__personal {
     @include flex(column, start, start);
     margin: 9rem 0 0;
     max-width: 40rem;

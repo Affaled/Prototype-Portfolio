@@ -33,7 +33,7 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-      <div className="header__socials">
+      <div className="header__social">
         <a href="#">
           <i className="fab fa-linkedin" alt="LinkedIn"></i>
         </a>
