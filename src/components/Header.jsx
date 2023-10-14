@@ -4,31 +4,31 @@ export default function Header() {
   return (
     <header className="header">
       <h1 className="header__logo">
-        <a href="/" alt="Affaled Logo">
+        <Link to="/" alt="Affaled Logo">
           Affaled
-        </a>
+        </Link>
       </h1>
       <nav className="header__nav">
         <ul className="header__nav-list">
           <li>
-            <a href="/" title="Home">
+            <Link to="/" title="Home">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about" title="About Me">
+            <Link to="/about" title="About Me">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/projects" title=" My Projects">
+            <Link to="/projects" title=" My Projects">
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/contact" title="Contact Me">
+            <Link to="/contact" title="Contact Me">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
