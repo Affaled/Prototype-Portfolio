@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutText = {
   professional: {
     paragraph1:
