@@ -133,37 +133,6 @@ a {
   max-height: 4.75rem;
   overflow: hidden;
 }
-.project__item-text-more {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: start;
-  width: -moz-max-content;
-  width: max-content;
-  padding-bottom: 0.25rem;
-  border-bottom: 1px solid #e4cb86;
-  gap: 1rem;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-.project__item-text-more svg {
-  height: 1rem;
-  width: -moz-min-content;
-  width: min-content;
-}
-.project__item-text-more svg path {
-  stroke: #e2e2e2;
-}
-.project__item-text-more:hover {
-  cursor: pointer;
-  color: #e4cb86;
-  transition: 0.2s;
-}
-.project__item-text-more:hover svg path {
-  stroke: #e4cb86;
-}
 
 .skills {
   display: flex;
@@ -175,6 +144,41 @@ a {
 }
 .skills img {
   width: 3.5rem;
+}
+
+.moreButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  width: -moz-max-content;
+  width: max-content;
+  padding-bottom: 0.25rem;
+  border: none;
+  border-bottom: 1px solid #e4cb86;
+  gap: 1rem;
+  font-size: 13px;
+  color: inherit;
+  background: inherit;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.moreButton svg {
+  height: 1rem;
+  width: -moz-min-content;
+  width: min-content;
+}
+.moreButton svg path {
+  stroke: #e2e2e2;
+}
+.moreButton:hover {
+  cursor: pointer;
+  color: #e4cb86;
+  transition: 0.2s;
+}
+.moreButton:hover svg path {
+  stroke: #e4cb86;
 }
 
 .home {
@@ -222,10 +226,38 @@ a {
 .home__about {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: start;
+  justify-content: space-between;
+  align-items: space-between;
   width: 1200px;
   margin: 9rem 0 0;
+}
+.home__about h3 {
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.home__about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 35rem;
+  gap: 0.75rem;
+}
+.home__about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.home__about-container-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 35rem;
+  gap: 0.75rem;
 }
 .home__projects {
   display: flex;
