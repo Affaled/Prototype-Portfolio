@@ -1,0 +1,9 @@
+.skills__container {
+  @include flex(row, start, start);
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+  img {
+    width: 3.5rem;
+  }
+}

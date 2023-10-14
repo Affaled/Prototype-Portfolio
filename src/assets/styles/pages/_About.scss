@@ -54,15 +54,5 @@
     width: 40rem;
     max-width: 40rem;
     gap: 1rem;
-
-    &-container {
-      @include flex(row, start, start);
-      flex-wrap: wrap;
-      gap: 1.5rem;
-
-      img {
-        width: 3.5rem;
-      }
-    }
   }
 }

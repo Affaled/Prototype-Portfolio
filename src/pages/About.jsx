@@ -1,4 +1,4 @@
-import svgs from "../components/svgs";
+import SkillsSVG from "../components/SkillsSVG";
 import AboutText from "../components/AboutText";
 
 export default function About() {
@@ -22,15 +22,7 @@ export default function About() {
       </section>
       <section className="about__skills">
         <h3>My Skills.</h3>
-        <div className="about__skills-container">
-          <img src={svgs.git} alt="Git" />
-          <img src={svgs.html5} alt="HTML5" />
-          <img src={svgs.css3} alt="CSS3" />
-          <img src={svgs.scss} alt="SCSS" />
-          <img src={svgs.js} alt="JavaScript" />
-          <img src={svgs.reactjs} alt="ReactJS" />
-          <img src={svgs.angular} alt="Angular" />
-        </div>
+        <SkillsSVG />
       </section>
     </main>
   );
