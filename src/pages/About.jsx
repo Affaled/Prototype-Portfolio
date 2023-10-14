@@ -1,4 +1,5 @@
-import Svgs from "../components/svgs";
+import svgs from "../components/svgs";
+import AboutText from "../components/AboutText";
 
 export default function About() {
   return (
@@ -8,63 +9,27 @@ export default function About() {
         <img src="#" alt="Lucas Photo" />
         <section className="about__personal-text">
           <h3>Front-end developer.</h3>
-          <p>
-            My involvement with programming began in 2017 when I took my first
-            steps into the world of coding with Python 3. Although, at that
-            time, I only completed a small portion of a course and soon
-            abandoned it, my passion for software development was reignited in
-            2022.
-          </p>
-          <p>
-            It was in that year that I decided to fully immerse myself in the
-            programming universe by creating games using the Game Maker Studio
-            platform. Subsequently, in 2023, I expanded my knowledge to web
-            development, dedicating myself to studying HTML and CSS for website
-            creation.
-          </p>
-          <p>
-            Currently, I am engaged in the study and development of web
-            applications, with a special focus on front-end development. I have
-            been committed to learning technologies like React, Angular, and
-            JavaScript. Furthermore, I am broadening my horizons to explore
-            back-end development, delving into robust technologies like Java and
-            PHP to enhance my skills and be capable of creating complete and
-            integrated systems.
-          </p>
+          <p>{AboutText.professional.paragraph1}</p>
+          <p>{AboutText.professional.paragraph2}</p>
+          <p>{AboutText.professional.paragraph3}</p>
         </section>
       </div>
       <section className="about__biography">
         <h3>Getting to Know Me.</h3>
-        <p>
-          My name is Lucas, and at the age of 19, I'm a programmer. What
-          captivates me in this field is the ability to create, to breathe life
-          into my ideas through code. In my personal life, I split my focus
-          between reading, drawing, studies, and video games.
-        </p>
-        <p>
-          I love sports like Volleyball, Basketball, and Boxing, which inspire
-          me with their energy and strategy. My studies cover various areas,
-          from drawing, games, and mythologies to programming and mathematics.
-          Additionally, I have the habit of researching any topic that piques my
-          curiosity.
-        </p>
-        <p>
-          Music is a constant soundtrack in my life, accompanying me in all
-          activities. Whether in my mornings and afternoons, dedicated to work
-          and studies, or in the evenings and late nights, moments for leisure
-          where I usually unwind.
-        </p>
+        <p>{AboutText.personal.paragraph1}</p>
+        <p>{AboutText.personal.paragraph2}</p>
+        <p>{AboutText.personal.paragraph3}</p>
       </section>
       <section className="about__skills">
         <h3>My Skills.</h3>
         <div className="about__skills-container">
-          <img src={Svgs.git} alt="Git" />
-          <img src={Svgs.html5} alt="HTML5" />
-          <img src={Svgs.css3} alt="CSS3" />
-          <img src={Svgs.scss} alt="SCSS" />
-          <img src={Svgs.js} alt="JavaScript" />
-          <img src={Svgs.reactjs} alt="ReactJS" />
-          <img src={Svgs.angular} alt="Angular" />
+          <img src={svgs.git} alt="Git" />
+          <img src={svgs.html5} alt="HTML5" />
+          <img src={svgs.css3} alt="CSS3" />
+          <img src={svgs.scss} alt="SCSS" />
+          <img src={svgs.js} alt="JavaScript" />
+          <img src={svgs.reactjs} alt="ReactJS" />
+          <img src={svgs.angular} alt="Angular" />
         </div>
       </section>
     </main>
