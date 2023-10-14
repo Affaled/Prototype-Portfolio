@@ -1,4 +1,4 @@
-import Svgs from "../svgs";
+import Svgs from "../components/svgs";
 
 export default function About() {
   return (
