@@ -165,7 +165,7 @@ a {
   stroke: #e4cb86;
 }
 
-.skills__container {
+.skills {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -173,7 +173,7 @@ a {
   flex-wrap: wrap;
   gap: 1.5rem;
 }
-.skills__container img {
+.skills img {
   width: 3.5rem;
 }
 

@@ -1,4 +1,4 @@
-.skills__container {
+.skills {
   @include flex(row, start, start);
   flex-wrap: wrap;
   gap: 1.5rem;

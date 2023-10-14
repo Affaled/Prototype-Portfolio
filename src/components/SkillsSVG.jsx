@@ -3,7 +3,7 @@ import svgs from "../components/svgs";
 
 export default function SkillsSVG() {
   return (
-    <div className="skills__container">
+    <div className="skills">
       <img src={svgs.git} alt="Git" />
       <img src={svgs.html5} alt="HTML5" />
       <img src={svgs.css3} alt="CSS3" />
