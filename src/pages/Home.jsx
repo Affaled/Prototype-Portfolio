@@ -13,16 +13,14 @@ export default function Home() {
         </div>
       </section>
       <section className="home__about">
+        <div className="home__about-skills">
+          <h3>Skills</h3>
+          <SkillsSVG />
+        </div>
         <div className="home__about-text">
           <h3>About</h3>
           <p>{AboutText.personal.paragraph1}</p>
           <p>{AboutText.professional.paragraph3}</p>
-        </div>
-        <div className="home__about-container">
-          <div className="home__about-skills">
-            <h3>Skills</h3>
-            <SkillsSVG />
-          </div>
           <MoreButton />
         </div>
       </section>
