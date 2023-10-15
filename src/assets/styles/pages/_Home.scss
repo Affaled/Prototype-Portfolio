@@ -1,6 +1,5 @@
 .home {
   @include flex(column, start, center);
-  z-index: 1;
   height: 100%;
   width: $max-width;
   max-width: $max-width;
@@ -16,6 +15,7 @@
 
       h1 {
         font-family: $secondary-font;
+        text-transform: capitalize;
         font-size: 80px;
         font-weight: 400;
         margin-bottom: 1.25rem;

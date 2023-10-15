@@ -1,7 +1,7 @@
 import React from "react";
 import svgs from "../components/svgs";
 
-export default function SkillsSVG() {
+const SkillsSVG = React.memo(() => {
   return (
     <div className="skills">
       <img src={svgs.git} alt="Git" />
@@ -13,4 +13,6 @@ export default function SkillsSVG() {
       <img src={svgs.angular} alt="Angular" />
     </div>
   );
-}
+});
+
+export default SkillsSVG;

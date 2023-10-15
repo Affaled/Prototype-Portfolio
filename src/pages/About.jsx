@@ -1,7 +1,8 @@
+import React from "react";
 import SkillsSVG from "../components/SkillsSVG";
 import AboutText from "../components/AboutText";
 
-export default function About() {
+const About = React.memo(() => {
   return (
     <main className="about">
       <h2 className="about__title">About me</h2>
@@ -15,15 +16,17 @@ export default function About() {
         </section>
       </div>
       <section className="about__personal">
-        <h3>Getting to Know Me.</h3>
+        <h3>Getting to know me.</h3>
         <p>{AboutText.personal.paragraph1}</p>
         <p>{AboutText.personal.paragraph2}</p>
         <p>{AboutText.personal.paragraph3}</p>
       </section>
       <section className="about__skills">
-        <h3>My Skills.</h3>
+        <h3>My skills.</h3>
         <SkillsSVG />
       </section>
     </main>
   );
-}
+});
+
+export default About;

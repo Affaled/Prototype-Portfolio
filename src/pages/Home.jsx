@@ -3,12 +3,12 @@ import AboutText from "../components/AboutText";
 import SkillsSVG from "../components/SkillsSVG";
 import MoreButton from "../components/MoreButton";
 
-export default function Home() {
+const Home = React.memo(() => {
   return (
     <main className="home">
       <section className="home__banner">
         <div className="home__banner-title">
-          <h1>Front-End Developer</h1>
+          <h1>Front-end developer</h1>
           <p>Scroll down</p>
         </div>
       </section>
@@ -30,4 +30,6 @@ export default function Home() {
       <section className="home__contact">Contact</section>
     </main>
   );
-}
+});
+
+export default Home;

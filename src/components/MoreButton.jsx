@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function MoreButton() {
+const MoreButton = React.memo(() => {
   return (
     <>
       <button className="moreButton">
@@ -23,4 +23,6 @@ export default function MoreButton() {
       </button>
     </>
   );
-}
+});
+
+export default MoreButton;

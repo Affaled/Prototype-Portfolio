@@ -1,7 +1,7 @@
 import React from "react";
 import MoreButton from "./MoreButton";
 
-export default function ProjectItem() {
+const ProjectItem = React.memo(() => {
   return (
     <div className="project__item">
       <img src="#" alt="Project Photo" />
@@ -18,4 +18,6 @@ export default function ProjectItem() {
       </div>
     </div>
   );
-}
+});
+
+export default ProjectItem;

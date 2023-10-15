@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { memo } from "react";
 
-export default function Header() {
+const Header = React.memo(() => {
   return (
     <header className="header">
       <h1 className="header__logo">
-        <Link to="/" alt="Affaled Logo">
-          Affaled
-        </Link>
+        <Link to="/">Affaled</Link>
       </h1>
       <nav className="header__nav">
         <ul className="header__nav-list">
@@ -46,4 +45,5 @@ export default function Header() {
       </div>
     </header>
   );
-}
+});
+export default Header;
