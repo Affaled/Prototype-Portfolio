@@ -1,12 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import { createBrowserRouter } from "react-router-dom";
+import { createRoutes, BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 
-const routes = createBrowserRouter([
+const AppRoutes = createRoutes([
   {
     path: "/",
     element: <App />,
@@ -27,4 +26,10 @@ const routes = createBrowserRouter([
   },
 ]);
 
-export default routes;
+export default function Routes() {
+  return (
+    <BrowserRouter>
+      <Routes>{AppRoutes}</Routes>
+    </BrowserRouter>
+  );
+}

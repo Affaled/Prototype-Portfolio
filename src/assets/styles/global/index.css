@@ -51,20 +51,20 @@ a {
   margin: 0.5rem calc((100vw - 6px - 1200px) / 2) 0;
   z-index: 100;
 }
-.header__logo {
+.header > h1 {
   font-family: "Cinzel", serif;
   font-size: 21px;
   font-weight: 600;
 }
-.header__logo:hover {
+.header > h1:hover {
   cursor: pointer;
   color: #e4cb86;
   transition: 0.2s;
 }
-.header__nav {
+.header > nav {
   display: flex;
 }
-.header__nav-list {
+.header > nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -75,10 +75,10 @@ a {
   font-weight: 600;
   list-style: none;
 }
-.header__nav-list > li {
+.header > nav > ul > li {
   text-transform: uppercase;
 }
-.header__nav-list > li:hover {
+.header > nav > ul > li:hover {
   cursor: pointer;
   color: #e4cb86;
   transition: 0.2s;

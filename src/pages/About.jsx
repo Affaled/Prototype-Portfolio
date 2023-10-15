@@ -1,6 +1,6 @@
 import React from "react";
-import SkillsSVG from "../components/SkillsSVG";
-import AboutText from "../components/AboutText";
+import SkillsSVG from "../components/skillsSVG";
+import AboutText from "../data/AboutData";
 
 const About = React.memo(() => {
   return (
