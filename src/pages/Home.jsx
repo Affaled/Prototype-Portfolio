@@ -21,7 +21,9 @@ export default function Home() {
           <h3>About</h3>
           <p>{AboutText.personal.paragraph1}</p>
           <p>{AboutText.professional.paragraph3}</p>
-          <MoreButton />
+          <span>
+            <MoreButton />
+          </span>
         </div>
       </section>
       <section className="home__projects">Projects</section>
