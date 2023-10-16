@@ -151,16 +151,15 @@ a {
   flex-direction: row;
   justify-content: start;
   align-items: start;
-  width: -moz-max-content;
-  width: max-content;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
   padding-bottom: 0.25rem;
   border: none;
   border-bottom: 1px solid #e4cb86;
   gap: 1rem;
-  font-size: 13px;
   color: inherit;
   background: inherit;
-  font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
