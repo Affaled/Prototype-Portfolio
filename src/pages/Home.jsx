@@ -1,5 +1,5 @@
 import React from "react";
-import AboutData from "../data/AboutData";
+import aboutData from "../data/AboutData";
 import SkillsSVG from "../components/skillsSVG";
 import MoreButton from "../components/MoreButton";
 
@@ -19,6 +19,8 @@ const Home = React.memo(() => {
         </div>
         <div className="home__about-text">
           <h3>About</h3>
+          <p>{aboutData.personalInfo[0]}</p>
+          <p>{aboutData.professionalInfo[2]}</p>
           <span>
             <MoreButton />
           </span>
