@@ -344,7 +344,7 @@ a {
   max-width: calc(100vw - 6px);
   padding: 9rem 0 0;
 }
-.projects__title {
+.projects > h2 {
   font-family: "Cinzel", serif;
   font-size: 80px;
   font-weight: 400;

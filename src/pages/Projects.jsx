@@ -4,7 +4,7 @@ import ProjectItem from "../components/ProjectItem";
 const Projects = React.memo(() => {
   return (
     <main className="projects">
-      <h2 className="projects__title">Projects</h2>
+      <h2>Projects</h2>
       <section className="projects__content">
         <ProjectItem />
         <ProjectItem />
