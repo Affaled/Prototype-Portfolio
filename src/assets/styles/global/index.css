@@ -277,15 +277,15 @@ a {
   max-width: calc(100vw - 6px);
   padding: 9rem 0 0;
 }
-.about h3 {
+.about > h2 {
   font-family: "Cinzel", serif;
-  font-size: 40px;
+  font-size: 80px;
   font-weight: 400;
   text-transform: capitalize;
 }
-.about__title {
+.about h3 {
   font-family: "Cinzel", serif;
-  font-size: 80px;
+  font-size: 40px;
   font-weight: 400;
   text-transform: capitalize;
 }
