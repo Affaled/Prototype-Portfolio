@@ -203,9 +203,9 @@ a {
 }
 .home__banner-title h1 {
   font-family: "Cinzel", serif;
-  text-transform: capitalize;
   font-size: 80px;
   font-weight: 400;
+  text-transform: capitalize;
   margin-bottom: 1.25rem;
 }
 .home__banner-title p {

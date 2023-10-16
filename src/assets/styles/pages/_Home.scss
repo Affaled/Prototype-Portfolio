@@ -14,17 +14,14 @@
       padding: 0 0 3.25rem;
 
       h1 {
-        font-family: $secondary-font;
+        @include font($secondary-font, $max-title-size, 400);
         text-transform: capitalize;
-        font-size: 80px;
-        font-weight: 400;
         margin-bottom: 1.25rem;
       }
 
       p {
-        font-size: $min-text-size;
+        @include font($inherit, $min-text-size, 600);
         text-transform: uppercase;
-        font-weight: 600;
         letter-spacing: 2px;
 
         &:hover {
@@ -42,9 +39,7 @@
     margin: 9rem 0 0;
 
     h3 {
-      font-family: $secondary-font;
-      font-size: 40px;
-      font-weight: 400;
+      @include font($secondary-font, $title-size, 400);
       text-transform: capitalize;
     }
 
