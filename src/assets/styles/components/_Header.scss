@@ -1,16 +1,13 @@
 .header {
   @include flex(row, space-between, center);
-  position: absolute;
-  top: 0;
-  left: 0;
+  @include position(absolute, 0, none, none, 0);
+
   width: 1200px;
   margin: 0.5rem calc(($max-width - 1200px) / 2) 0;
   z-index: 100;
 
   & > h1 {
-    font-family: $secondary-font;
-    font-size: $max-font-size;
-    font-weight: 600;
+    @include font($secondary-font, $max-font-size, 600);
 
     &:hover {
       cursor: pointer;
@@ -19,25 +16,21 @@
     }
   }
 
-  & > nav {
-    display: flex;
+  & > nav > ul {
+    @include flex(row, start, center);
+    @include font(inherit, $min-font-size, 600);
 
-    & > ul {
-      @include flex(row, start, center);
-      height: 4.5rem;
-      gap: 2.5rem;
-      font-size: $min-font-size;
-      font-weight: 600;
-      list-style: none;
+    height: 4.5rem;
+    gap: 2.5rem;
+    list-style: none;
 
-      & > li {
-        text-transform: uppercase;
+    & > li {
+      text-transform: uppercase;
 
-        &:hover {
-          cursor: pointer;
-          color: $primary-color;
-          transition: 0.2s;
-        }
+      &:hover {
+        cursor: pointer;
+        color: $primary-color;
+        transition: 0.2s;
       }
     }
   }

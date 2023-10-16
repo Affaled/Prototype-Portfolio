@@ -46,6 +46,8 @@ a {
   align-items: center;
   position: absolute;
   top: 0;
+  right: none;
+  bottom: none;
   left: 0;
   width: 1200px;
   margin: 0.5rem calc((100vw - 6px - 1200px) / 2) 0;
@@ -61,18 +63,16 @@ a {
   color: #e4cb86;
   transition: 0.2s;
 }
-.header > nav {
-  display: flex;
-}
 .header > nav > ul {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  height: 4.5rem;
-  gap: 2.5rem;
+  font-family: inherit;
   font-size: 13px;
   font-weight: 600;
+  height: 4.5rem;
+  gap: 2.5rem;
   list-style: none;
 }
 .header > nav > ul > li {
