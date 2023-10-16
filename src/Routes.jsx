@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 
-const AppRoutes = createBrowserRouter([
+const routes = createBrowserRouter([
   {
     path: "/",
     element: <App />,
@@ -26,4 +26,4 @@ const AppRoutes = createBrowserRouter([
   },
 ]);
 
-export default AppRoutes;
+export default routes;
