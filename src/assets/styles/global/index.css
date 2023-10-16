@@ -94,7 +94,7 @@ a {
   transition: 0.2s;
 }
 
-.project__item {
+.projectItem {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -102,33 +102,30 @@ a {
   width: 1200px;
   gap: 1rem;
 }
-.project__item img {
+.projectItem img {
   width: 24rem;
-  max-width: 24rem;
   height: 13.5rem;
-  max-height: 13.5rem;
   background-color: #e4cb86;
   color: #000;
   border-radius: 0.5rem;
 }
-.project__item-text {
+.projectItem__text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
   height: 13.5rem;
-  max-width: 24rem;
-  min-width: 24rem;
+  width: 24rem;
   padding-bottom: 1rem;
 }
-.project__item-text h3 {
+.projectItem__text h3 {
   font-family: "Cinzel", serif;
   font-size: 40px;
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 0.5rem;
 }
-.project__item-text p {
+.projectItem__text p {
   line-height: 1.5rem;
   max-height: 4.75rem;
   overflow: hidden;

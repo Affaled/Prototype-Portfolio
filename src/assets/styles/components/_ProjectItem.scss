@@ -1,29 +1,24 @@
-.project__item {
+.projectItem {
   @include flex(row, start, start);
   width: 1200px;
   gap: 1rem;
 
   img {
     width: 24rem;
-    max-width: 24rem;
     height: 13.5rem;
-    max-height: 13.5rem;
     background-color: $primary-color;
     color: $background-color;
     border-radius: 0.5rem;
   }
 
-  &-text {
+  &__text {
     @include flex(column, space-between, start);
     height: 13.5rem;
-    max-width: 24rem;
-    min-width: 24rem;
+    width: 24rem;
     padding-bottom: 1rem;
 
     h3 {
-      font-family: $secondary-font;
-      font-size: 40px;
-      font-weight: 400;
+      @include font($secondary-font, $title-size, 400);
       text-transform: capitalize;
       margin-bottom: 0.5rem;
     }

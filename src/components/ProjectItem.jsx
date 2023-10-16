@@ -3,9 +3,9 @@ import MoreButton from "./MoreButton";
 
 const ProjectItem = React.memo(() => {
   return (
-    <div className="project__item">
+    <div className="projectItem">
       <img src="#" alt="Project Photo" />
-      <div className="project__item-text">
+      <div className="projectItem__text">
         <div>
           <h3>Title</h3>
           <p>
