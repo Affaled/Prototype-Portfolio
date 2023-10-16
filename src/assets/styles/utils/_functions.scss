@@ -16,3 +16,8 @@
   font-size: $size;
   font-weight: $weight;
 }
+@mixin hoverAnimation($color) {
+  cursor: pointer;
+  color: $color;
+  transition: 0.2s;
+}
