@@ -7,7 +7,7 @@
   z-index: 100;
 
   & > h1 {
-    @include font($secondary-font, $max-font-size, 600);
+    @include font($secondary-font, $max-text-size, 600);
 
     &:hover {
       cursor: pointer;
@@ -18,7 +18,7 @@
 
   & > nav > ul {
     @include flex(row, start, center);
-    @include font(inherit, $min-font-size, 600);
+    @include font(inherit, $min-text-size, 600);
 
     height: 4.5rem;
     gap: 2.5rem;
@@ -37,7 +37,7 @@
 
   &__social {
     display: flex;
-    font-size: $max-font-size;
+    font-size: $max-text-size;
     gap: 2rem;
 
     & > a {
