@@ -1,8 +1,7 @@
 .home {
   @include flex(column, start, center);
   height: 100%;
-  width: $max-width;
-  max-width: $max-width;
+  width: 100vw;
 
   &__banner {
     @include flex(column, end, center);
@@ -20,7 +19,7 @@
       }
 
       p {
-        @include font($inherit, $min-text-size, 600);
+        @include font(inherit, $min-text-size, 600);
         text-transform: uppercase;
         letter-spacing: 2px;
 

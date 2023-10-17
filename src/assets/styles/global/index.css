@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
 :root {
-  max-width: calc(100vw - 6px);
-  max-width: calc(100vw - 6px);
+  width: 100vw;
   font-family: "Montserrat", sans-serif;
   background-color: #000;
   color: #e2e2e2;
@@ -50,7 +49,7 @@ a {
   bottom: none;
   left: 0;
   width: 1200px;
-  margin: 0.5rem calc((100vw - 6px - 1200px) / 2) 0;
+  margin: 0.5rem calc((100vw - 1200px) / 2) 0;
   z-index: 100;
 }
 .header > h1 {
@@ -182,8 +181,7 @@ a {
   justify-content: start;
   align-items: center;
   height: 100%;
-  width: calc(100vw - 6px);
-  max-width: calc(100vw - 6px);
+  width: 100vw;
 }
 .home__banner {
   display: flex;
@@ -208,9 +206,10 @@ a {
   margin-bottom: 1.25rem;
 }
 .home__banner-title p {
+  font-family: inherit;
   font-size: 13px;
-  text-transform: uppercase;
   font-weight: 600;
+  text-transform: uppercase;
   letter-spacing: 2px;
 }
 .home__banner-title p:hover {
@@ -272,8 +271,7 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  width: calc(100vw - 6px);
-  max-width: calc(100vw - 6px);
+  width: 100vw;
   padding: 9rem 0 0;
 }
 .about > h2 {
@@ -336,8 +334,7 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  width: calc(100vw - 6px);
-  max-width: calc(100vw - 6px);
+  width: 100vw;
   padding: 9rem 0 0;
 }
 .projects > h2 {
@@ -353,4 +350,4 @@ a {
   justify-content: start;
   align-items: center;
   gap: 4rem;
-} /*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

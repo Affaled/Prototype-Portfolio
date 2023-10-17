@@ -1,7 +1,6 @@
 .about {
   @include flex(column, start, center);
-  width: $max-width;
-  max-width: $max-width;
+  width: 100vw;
   padding: 9rem 0 0;
 
   & > h2 {
