@@ -126,7 +126,6 @@ a {
   margin-bottom: 0.5rem;
 }
 .projectItem__text p {
-  line-height: 1.5rem;
   max-height: 4.75rem;
   overflow: hidden;
 }
@@ -354,4 +353,4 @@ a {
   justify-content: start;
   align-items: center;
   gap: 4rem;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
