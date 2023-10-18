@@ -1,0 +1,25 @@
+.homeAbout {
+  @include flex(row, space-between, space-between);
+  width: 1200px;
+  margin: 9rem 0 0;
+
+  h3 {
+    @include font($secondary-font, $title-size, 400);
+    text-transform: capitalize;
+  }
+
+  &__skills {
+    @include flex(column, start, start);
+    gap: 1rem;
+  }
+
+  &__text {
+    @include flex(column, space-between, start);
+    width: 35rem;
+    gap: 1rem;
+
+    & > span {
+      margin-top: 1.75rem;
+    }
+  }
+}

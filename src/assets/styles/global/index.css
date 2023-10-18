@@ -181,6 +181,39 @@ a {
   stroke: #e4cb86;
 }
 
+.homeAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  width: 1200px;
+  margin: 9rem 0 0;
+}
+.homeAbout h3 {
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.homeAbout__skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+}
+.homeAbout__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  width: 35rem;
+  gap: 1rem;
+}
+.homeAbout__text > span {
+  margin-top: 1.75rem;
+}
+
 .home {
   display: flex;
   flex-direction: column;
@@ -222,38 +255,6 @@ a {
   cursor: pointer;
   color: #e4cb86;
   transition: 0.2s;
-}
-.home__about {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: space-between;
-  width: 1200px;
-  margin: 9rem 0 0;
-}
-.home__about h3 {
-  font-family: "Cinzel", serif;
-  font-size: 40px;
-  font-weight: 400;
-  text-transform: capitalize;
-}
-.home__about-skills {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: start;
-  gap: 1rem;
-}
-.home__about-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: start;
-  width: 35rem;
-  gap: 1rem;
-}
-.home__about-text > span {
-  margin-top: 1.75rem;
 }
 .home__projects {
   display: flex;

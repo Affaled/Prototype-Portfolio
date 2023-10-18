@@ -1,7 +1,5 @@
 import React from "react";
-import aboutData from "../data/AboutData";
-import SkillsSVG from "../components/skillsSVG";
-import MoreButton from "../components/MoreButton";
+import HomeAbout from "../components/HomeAbout";
 
 const Home = React.memo(() => {
   return (
@@ -12,20 +10,7 @@ const Home = React.memo(() => {
           <p>Scroll down</p>
         </div>
       </section>
-      <section className="home__about">
-        <div className="home__about-skills">
-          <h3>Skills</h3>
-          <SkillsSVG />
-        </div>
-        <div className="home__about-text">
-          <h3>About</h3>
-          <p>{aboutData.personalInfo[0]}</p>
-          <p>{aboutData.professionalInfo[2]}</p>
-          <span>
-            <MoreButton />
-          </span>
-        </div>
-      </section>
+      <HomeAbout />
       <section className="home__projects">Projects</section>
       <section className="home__contact">Contact</section>
     </main>
