@@ -1,44 +1,50 @@
 .header {
-  @include flex(row, space-between, center);
-  @include position(absolute, 0, none, none, 0);
-
-  width: 1200px;
-  margin: 0.5rem calc((100vw - 1200px) / 2) 0;
+  @include position(absolute, 0, none, none, none);
   z-index: 100;
+  width: 100vw;
 
-  & > h1 {
-    @include font($secondary-font, $max-text-size, 600);
+  &__content {
+    @include flex(row, space-between, center);
+    max-width: 1240px;
+    margin: 0.75rem auto 0;
+    padding: 0 20px;
 
-    &:hover {
-      @include hoverAnimation($primary-color);
-    }
-  }
-
-  & > nav > ul {
-    @include flex(row, start, center);
-    @include font(inherit, $min-text-size, 600);
-
-    height: 4.5rem;
-    gap: 2.5rem;
-    list-style: none;
-
-    & > li {
-      text-transform: uppercase;
+    & > h1 {
+      @include font($secondary-font, $max-text-size, 600);
 
       &:hover {
         @include hoverAnimation($primary-color);
       }
     }
-  }
 
-  &__social {
-    display: flex;
-    font-size: $max-text-size;
-    gap: 2rem;
+    & > nav {
+      ul {
+        @include flex(row, start, center);
+        @include font(inherit, $min-text-size, 600);
 
-    & > a {
-      &:hover {
-        @include hoverAnimation($primary-color);
+        height: 4.5rem;
+        gap: 2.5rem;
+        list-style: none;
+
+        & > li {
+          text-transform: uppercase;
+
+          &:hover {
+            @include hoverAnimation($primary-color);
+          }
+        }
+      }
+    }
+
+    &-social {
+      display: flex;
+      font-size: $max-text-size;
+      gap: 2rem;
+
+      & > a {
+        &:hover {
+          @include hoverAnimation($primary-color);
+        }
       }
     }
   }

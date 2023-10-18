@@ -2,12 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap");
 :root {
   width: 100vw;
+  min-width: 100vw;
   font-family: "Montserrat", sans-serif;
   background-color: #000;
   color: #e2e2e2;
 }
 :root::-webkit-scrollbar {
   width: 6px;
+  display: none;
 }
 :root::-webkit-scrollbar-thumb {
   border-radius: 4px;
@@ -39,30 +41,34 @@ a {
 }
 
 .header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   position: absolute;
   top: 0;
   right: none;
   bottom: none;
-  left: 0;
-  width: 1200px;
-  margin: 0.5rem calc((100vw - 1200px) / 2) 0;
+  left: none;
   z-index: 100;
+  width: 100vw;
 }
-.header > h1 {
+.header__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1240px;
+  margin: 0.75rem auto 0;
+  padding: 0 20px;
+}
+.header__content > h1 {
   font-family: "Cinzel", serif;
   font-size: 21px;
   font-weight: 600;
 }
-.header > h1:hover {
+.header__content > h1:hover {
   cursor: pointer;
   color: #e4cb86;
   transition: 0.2s;
 }
-.header > nav > ul {
+.header__content > nav ul {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -74,20 +80,20 @@ a {
   gap: 2.5rem;
   list-style: none;
 }
-.header > nav > ul > li {
+.header__content > nav ul > li {
   text-transform: uppercase;
 }
-.header > nav > ul > li:hover {
+.header__content > nav ul > li:hover {
   cursor: pointer;
   color: #e4cb86;
   transition: 0.2s;
 }
-.header__social {
+.header__content-social {
   display: flex;
   font-size: 21px;
   gap: 2rem;
 }
-.header__social > a:hover {
+.header__content-social > a:hover {
   cursor: pointer;
   color: #e4cb86;
   transition: 0.2s;
