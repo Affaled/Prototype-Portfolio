@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { RouterProvider } from "react-router-dom";
-import routes from "./routes";
+import routes from "./routes.jsx";
 import "./assets/styles/global/index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
