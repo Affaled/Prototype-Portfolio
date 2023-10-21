@@ -222,8 +222,13 @@ a {
 }
 .about__professional img {
   width: 35rem;
-  min-height: 419px;
-  background-color: #e4cb86;
+  min-height: 35rem;
+  height: 35rem;
+  max-height: 35rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   color: #000;
   border-radius: 0.5rem;
 }

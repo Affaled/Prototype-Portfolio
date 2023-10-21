@@ -1,13 +1,14 @@
 import React from "react";
 import SkillsSVG from "../components/skillsSVG";
 import aboutText from "../data/AboutData";
+import affaledPhoto from "../assets/images/affaled-photo.jpg";
 
 const About = React.memo(() => {
   return (
     <main className="about">
       <h2>About me</h2>
       <div className="about__professional">
-        <img src="#" alt="Lucas Photo" />
+        <img src={affaledPhoto} alt="Lucas Photo" />
         <section className="about__professional-text">
           <h3>Front-end developer.</h3>
           <p>{aboutText.professionalInfo[0]}</p>

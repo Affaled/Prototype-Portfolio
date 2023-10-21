@@ -20,8 +20,11 @@
 
     img {
       width: 35rem;
-      min-height: 419px;
-      background-color: $primary-color;
+      min-height: 35rem;
+      height: 35rem;
+      max-height: 35rem;
+      object-fit: cover;
+      object-position: center;
       color: $background-color;
       border-radius: 0.5rem;
     }
