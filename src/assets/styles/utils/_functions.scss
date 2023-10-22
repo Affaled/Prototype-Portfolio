@@ -21,3 +21,13 @@
   color: $color;
   transition: 0.2s;
 }
+@mixin height($min-height, $height, $max-height) {
+  min-height: $min-height;
+  height: $height;
+  max-height: $max-height;
+}
+@mixin width($min-width, $width, $max-width) {
+  min-width: $min-width;
+  width: $width;
+  max-width: $max-width;
+}

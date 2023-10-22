@@ -1,6 +1,6 @@
 .projectItem {
   @include flex(row, start, start);
-  width: 1200px;
+  @include width(0, 100%, 1200px);
   gap: 1rem;
 
   img {

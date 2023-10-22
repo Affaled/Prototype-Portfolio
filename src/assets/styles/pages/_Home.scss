@@ -1,17 +1,15 @@
 .home {
   @include flex(column, start, center);
+  @include width(0, 100%, 1240px);
   height: 100%;
-  width: 100vw;
+  margin: 0.75rem auto 0;
+  padding: 0 20px;
 
   &__projects {
     @include flex(row, center, start);
-    width: 1200px;
-    margin: 9rem 0 0;
   }
 
   &__contact {
     @include flex(row, center, start);
-    width: 1200px;
-    margin: 9rem 0 0;
   }
 }
