@@ -14,7 +14,7 @@ const ProjectItem = React.memo(() => {
             voluptatem ab iusto nam, culpa esse eligendi ea sapiente? Eaque.
           </p>
         </div>
-        <MoreButton />
+        <MoreButton text="View project" />
       </div>
     </div>
   );

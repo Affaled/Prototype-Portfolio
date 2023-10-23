@@ -1,5 +1,6 @@
 .homeAbout {
   @include flex(row, space-between, space-between);
+  @include width(0, 100%, 1024px);
   margin: 6rem 0 0;
 
   h3 {
@@ -9,13 +10,12 @@
 
   &__skills {
     @include flex(column, start, start);
-    @include width(0, 100%, 32rem);
-    gap: 1rem;
+    @include width(0, 100%, 30rem);
   }
 
   &__text {
     @include flex(column, space-between, start);
-    @include width(0, 100%, 32rem);
+    @include width(0, 100%, 30rem);
     gap: 1rem;
 
     & > span {

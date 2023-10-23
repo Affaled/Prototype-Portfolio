@@ -1,7 +1,7 @@
 .skills {
-  @include flex(row, start, start);
+  @include flex(row, space-between, start);
+  width: 100%;
   flex-wrap: wrap;
-  gap: 1.5rem;
 
   img {
     width: 3.5rem;
