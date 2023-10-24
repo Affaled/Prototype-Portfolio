@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, ScrollRestoration } from "react-router-dom";
 import aboutData from "../data/AboutData";
 import SkillsSVG from "./skillsSVG";
 import MoreButton from "./MoreButton";
@@ -15,7 +16,9 @@ export default function HomeAbout() {
         <p>{aboutData.personalInfo[0]}</p>
         <p>{aboutData.professionalInfo[2]}</p>
         <span>
-          <MoreButton text="Learn more" />
+          <Link to="/about">
+            <MoreButton text="Learn more" />
+          </Link>
         </span>
       </div>
     </section>
