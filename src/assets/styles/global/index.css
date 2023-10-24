@@ -186,6 +186,7 @@ a {
   min-width: 0;
   width: 100%;
   max-width: 30rem;
+  gap: 1rem;
 }
 .homeAbout__text {
   display: flex;
@@ -199,6 +200,34 @@ a {
 }
 .homeAbout__text > span {
   margin-top: 1.75rem;
+}
+
+.homeProjects {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  min-width: 0;
+  width: 100%;
+  max-width: 1024px;
+  margin: 6rem 0 0;
+  gap: 1rem;
+}
+.homeProjects > h3 {
+  font-family: "Cinzel", serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.homeProjects__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  min-width: 0;
+  width: 100%;
+  max-width: 1024px;
+  gap: 2rem;
 }
 
 .about {

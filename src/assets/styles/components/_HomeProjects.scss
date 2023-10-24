@@ -1,0 +1,17 @@
+.homeProjects {
+  @include flex(column, start, start);
+  @include width(0, 100%, 1024px);
+  margin: 6rem 0 0;
+  gap: 1rem;
+
+  & > h3 {
+    @include font($secondary-font, $title-size, 400);
+    text-transform: capitalize;
+  }
+
+  &__content {
+    @include flex(column, start, start);
+    @include width(0, 100%, 1024px);
+    gap: 2rem;
+  }
+}
