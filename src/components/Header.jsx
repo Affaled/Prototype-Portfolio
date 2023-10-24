@@ -25,13 +25,13 @@ const Header = React.memo(() => {
           </ul>
         </nav>
         <div className="header__content-social">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/lucas-affaled" target="_blank">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/Affaled" target="_blank">
             <i className="fab fa-github"></i>
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/affaled.dev/" target="_blank">
             <i className="fab fa-instagram"></i>
           </a>
         </div>
