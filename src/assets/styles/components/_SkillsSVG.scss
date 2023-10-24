@@ -1,9 +1,18 @@
 .skills {
-  @include flex(row, space-between, start);
+  @include flex(row, start, start);
   width: 100%;
+  gap: 0.75rem;
   flex-wrap: wrap;
 
   img {
     width: 3.5rem;
+  }
+}
+
+@media (max-width: 505px) {
+  .skills {
+    img {
+      width: 3rem;
+    }
   }
 }

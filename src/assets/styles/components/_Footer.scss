@@ -60,3 +60,25 @@
     color: $primary-color;
   }
 }
+
+@media (max-width: 650px) {
+  .footer {
+    &__content {
+      @include flex(column, start, center);
+      gap: 1rem;
+
+      &-text {
+        @include flex(column, center, center);
+      }
+
+      & > nav > ul {
+        display: none;
+      }
+
+      &-social {
+        @include flex(row, center, center);
+        gap: 2rem;
+      }
+    }
+  }
+}

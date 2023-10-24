@@ -1,5 +1,5 @@
 .homeAbout {
-  @include flex(row, space-between, space-between);
+  @include flex(row, space-between, start);
   @include width(0, 100%, 1024px);
   margin: 6rem 0 0;
 
@@ -16,11 +16,21 @@
 
   &__text {
     @include flex(column, space-between, start);
-    @include width(0, 100%, 30rem);
+    @include width(400px, 100%, 30rem);
     gap: 1rem;
 
     & > span {
       margin-top: 1.75rem;
+    }
+  }
+}
+
+@media (max-width: 730px) {
+  .homeAbout {
+    @include flex(column, start, center);
+
+    &__text {
+      margin: 6rem 0 0;
     }
   }
 }

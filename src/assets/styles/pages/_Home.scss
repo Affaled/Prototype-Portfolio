@@ -4,12 +4,4 @@
   height: 100%;
   margin: 0.75rem auto 0;
   padding: 0 20px;
-
-  &__projects {
-    @include flex(row, center, start);
-  }
-
-  &__contact {
-    @include flex(row, center, start);
-  }
 }
