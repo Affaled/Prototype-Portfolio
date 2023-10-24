@@ -1,20 +1,18 @@
 import React from "react";
 import MoreButton from "./MoreButton";
 
-const ProjectItem = React.memo(() => {
+const ProjectItem = React.memo(({ image, title, description, url }) => {
   return (
     <div className="projectItem">
-      <img src="#" alt="Project Photo" />
+      <img src={image} alt="Project Photo" />
       <div className="projectItem__text">
         <div>
-          <h3>Title</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic itaque
-            ex nobis, aliquid fuga illum consequatur aut quo deleniti modi
-            voluptatem ab iusto nam, culpa esse eligendi ea sapiente? Eaque.
-          </p>
+          <h3>{title}</h3>
+          <p>{description}</p>
         </div>
-        <MoreButton text="View project" />
+        <a href={url} target="_blank">
+          <MoreButton text="View project" />
+        </a>
       </div>
     </div>
   );
