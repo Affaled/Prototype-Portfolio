@@ -11,6 +11,7 @@
 
     & > h1 {
       @include font($secondary-font, $max-text-size, 600);
+      @include width(0, 100%, 135px);
 
       &:hover {
         @include hoverAnimation($primary-color);
@@ -37,6 +38,7 @@
 
     &-social {
       display: flex;
+      @include width(0, 100%, 135px);
       font-size: $max-text-size;
       gap: 2rem;
 

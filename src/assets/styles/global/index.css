@@ -64,6 +64,9 @@ a {
   font-family: "Cinzel", serif;
   font-size: 26px;
   font-weight: 600;
+  min-width: 0;
+  width: 100%;
+  max-width: 135px;
 }
 .header__content > h1:hover {
   cursor: pointer;
@@ -92,6 +95,9 @@ a {
 }
 .header__content-social {
   display: flex;
+  min-width: 0;
+  width: 100%;
+  max-width: 135px;
   font-size: 26px;
   gap: 2rem;
 }
