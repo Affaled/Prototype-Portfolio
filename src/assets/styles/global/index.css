@@ -325,6 +325,11 @@ a {
   background-color: #e4cb86;
   color: #000;
   border-radius: 0.5rem;
+  border: 1px solid #e4cb86;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
 }
 .projectItem__text {
   display: flex;
@@ -339,6 +344,7 @@ a {
   font-family: "Cinzel", serif;
   font-size: 40px;
   font-weight: 400;
+  color: #e4cb86;
   text-transform: capitalize;
   margin-bottom: 0.5rem;
 }
