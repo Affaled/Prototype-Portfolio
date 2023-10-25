@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+const Navbar = React.memo(() => {
   return (
     <nav className="navbar">
       <ul>
@@ -17,4 +17,6 @@ export default function Navbar() {
       </ul>
     </nav>
   );
-}
+});
+
+export default Navbar;
