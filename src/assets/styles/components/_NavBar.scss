@@ -1,5 +1,5 @@
 .navbar {
-  ul {
+  & > ul {
     @include flex(row, start, center);
     @include font(inherit, $min-text-size, 600);
     height: 4.5rem;
