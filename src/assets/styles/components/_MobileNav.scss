@@ -1,0 +1,29 @@
+.mobileNav {
+  display: none;
+  & > ul {
+    @include flex(column, start, start);
+    @include position(absolute, 78px, none, none, 0);
+    @include font(inherit, $min-text-size, 600);
+    @include width(0, 100%, 100vw);
+    padding: 0 20px;
+
+    list-style: none;
+
+    & > li {
+      width: 100%;
+      text-transform: uppercase;
+
+      & > a {
+        width: 100%;
+        display: block;
+        height: 45px;
+        align-items: center;
+        line-height: 45px;
+
+        &:hover {
+          @include hoverAnimation($primary-color);
+        }
+      }
+    }
+  }
+}
