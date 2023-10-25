@@ -191,31 +191,6 @@ a {
   color: #e4cb86;
 }
 
-@media (max-width: 650px) {
-  .footer__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 1rem;
-  }
-  .footer__content-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .footer__content > nav > ul {
-    display: none;
-  }
-  .footer__content-social {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
-  }
-}
 .home {
   display: flex;
   flex-direction: column;
@@ -265,55 +240,6 @@ a {
   transition: 0.2s;
 }
 
-@media (max-width: 960px) {
-  .homeBanner__title h1 {
-    font-family: "Cinzel", serif;
-    font-size: 70px;
-    font-weight: 400;
-  }
-}
-@media (max-width: 850px) {
-  .homeBanner__title h1 {
-    font-family: "Cinzel", serif;
-    font-size: 60px;
-    font-weight: 400;
-  }
-}
-@media (max-width: 730px) {
-  .homeBanner__title h1 {
-    font-family: "Cinzel", serif;
-    font-size: 55px;
-    font-weight: 400;
-  }
-}
-@media (max-width: 670px) {
-  .homeBanner__title h1 {
-    font-family: "Cinzel", serif;
-    font-size: 50px;
-    font-weight: 400;
-  }
-}
-@media (max-width: 620px) {
-  .homeBanner__title h1 {
-    font-family: "Cinzel", serif;
-    font-size: 45px;
-    font-weight: 400;
-  }
-}
-@media (max-width: 560px) {
-  .homeBanner__title h1 {
-    font-family: "Cinzel", serif;
-    font-size: 40px;
-    font-weight: 400;
-  }
-}
-@media (max-width: 500px) {
-  .homeBanner__title h1 {
-    font-family: "Cinzel", serif;
-    font-size: 35px;
-    font-weight: 400;
-  }
-}
 .homeAbout {
   display: flex;
   flex-direction: row;
@@ -354,17 +280,6 @@ a {
   margin-top: 1.75rem;
 }
 
-@media (max-width: 730px) {
-  .homeAbout {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-  }
-  .homeAbout__text {
-    margin: 6rem 0 0;
-  }
-}
 .homeProjects {
   display: flex;
   flex-direction: column;
@@ -545,19 +460,6 @@ a {
   overflow: hidden;
 }
 
-@media (max-width: 620px) {
-  .projectItem {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-  }
-  .projectItem h3 {
-    font-family: "Cinzel", serif;
-    font-size: 40px;
-    font-weight: 400;
-  }
-}
 .skills {
   display: flex;
   flex-direction: row;
@@ -571,11 +473,6 @@ a {
   width: 3.5rem;
 }
 
-@media (max-width: 505px) {
-  .skills img {
-    width: 3rem;
-  }
-}
 .moreButton {
   display: flex;
   flex-direction: row;

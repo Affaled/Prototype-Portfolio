@@ -33,13 +33,3 @@
     }
   }
 }
-
-@media (max-width: 620px) {
-  .projectItem {
-    @include flex(column, start, center);
-
-    h3 {
-      @include font($secondary-font, $title-size, 400);
-    }
-  }
-}
