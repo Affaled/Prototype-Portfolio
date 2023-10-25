@@ -1,7 +1,7 @@
 .homeAbout {
   @include flex(row, space-between, start);
   @include width(0, 100%, 1024px);
-  margin: 6rem 0 0;
+  margin: 96px 0 0;
 
   h3 {
     @include font($secondary-font, $title-size, 400);
@@ -10,17 +10,17 @@
 
   &__skills {
     @include flex(column, start, start);
-    @include width(0, 100%, 30rem);
-    gap: 1rem;
+    @include width(0, 100%, 480px);
+    gap: 16px;
   }
 
   &__text {
     @include flex(column, space-between, start);
-    @include width(400px, 100%, 30rem);
-    gap: 1rem;
+    @include width(400px, 100%, 480px);
+    gap: 16px;
 
     & > span {
-      margin-top: 1.75rem;
+      margin-top: 28px;
     }
   }
 }

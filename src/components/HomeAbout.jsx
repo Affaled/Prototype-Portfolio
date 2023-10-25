@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, ScrollRestoration } from "react-router-dom";
+import { Link } from "react-router-dom";
 import aboutData from "../data/AboutData";
 import SkillsSVG from "./skillsSVG";
 import MoreButton from "./MoreButton";
