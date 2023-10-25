@@ -11,34 +11,14 @@
 
     & > h1 {
       @include font($secondary-font, $max-text-size, 600);
-      @include width(0, 100%, 135px);
 
       &:hover {
         @include hoverAnimation($primary-color);
       }
     }
 
-    & > nav {
-      ul {
-        @include flex(row, start, center);
-        @include font(inherit, $min-text-size, 600);
-        height: 4.5rem;
-        gap: 2.5rem;
-        list-style: none;
-
-        & > li {
-          text-transform: uppercase;
-
-          &:hover {
-            @include hoverAnimation($primary-color);
-          }
-        }
-      }
-    }
-
     &-social {
       display: flex;
-      @include width(0, 100%, 135px);
       font-size: $max-text-size;
       gap: 2rem;
 
@@ -49,4 +29,7 @@
       }
     }
   }
+}
+
+@media (max-width: 921px) {
 }

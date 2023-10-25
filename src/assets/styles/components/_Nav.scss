@@ -1,0 +1,17 @@
+.navbar {
+  ul {
+    @include flex(row, start, center);
+    @include font(inherit, $min-text-size, 600);
+    height: 4.5rem;
+    gap: 2.5rem;
+    list-style: none;
+
+    & > li {
+      text-transform: uppercase;
+
+      &:hover {
+        @include hoverAnimation($primary-color);
+      }
+    }
+  }
+}

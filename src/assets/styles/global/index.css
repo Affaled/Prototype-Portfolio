@@ -64,16 +64,24 @@ a {
   font-family: "Cinzel", serif;
   font-size: 26px;
   font-weight: 600;
-  min-width: 0;
-  width: 100%;
-  max-width: 135px;
 }
 .header__content > h1:hover {
   cursor: pointer;
   color: #e4cb86;
   transition: 0.2s;
 }
-.header__content > nav ul {
+.header__content-social {
+  display: flex;
+  font-size: 26px;
+  gap: 2rem;
+}
+.header__content-social > a:hover {
+  cursor: pointer;
+  color: #e4cb86;
+  transition: 0.2s;
+}
+
+.navbar ul {
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -85,23 +93,10 @@ a {
   gap: 2.5rem;
   list-style: none;
 }
-.header__content > nav ul > li {
+.navbar ul > li {
   text-transform: uppercase;
 }
-.header__content > nav ul > li:hover {
-  cursor: pointer;
-  color: #e4cb86;
-  transition: 0.2s;
-}
-.header__content-social {
-  display: flex;
-  min-width: 0;
-  width: 100%;
-  max-width: 135px;
-  font-size: 26px;
-  gap: 2rem;
-}
-.header__content-social > a:hover {
+.navbar ul > li:hover {
   cursor: pointer;
   color: #e4cb86;
   transition: 0.2s;

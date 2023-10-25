@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Nav from "./Nav";
 
 const Header = React.memo(() => {
   return (
@@ -8,19 +9,7 @@ const Header = React.memo(() => {
         <h1>
           <Link to="/">Affaled</Link>
         </h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-          </ul>
-        </nav>
+        <Nav />
         <div className="header__content-social">
           <a href="https://www.linkedin.com/in/lucas-affaled" target="_blank">
             <i className="fab fa-linkedin"></i>
