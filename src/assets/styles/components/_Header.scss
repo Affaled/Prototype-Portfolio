@@ -1,12 +1,14 @@
 .header {
   @include position(absolute, 0, none, none, none);
   z-index: 100;
+  height: 78px;
   width: 100vw;
 
   &__content {
     @include flex(row, space-between, center);
     @include width(0, 100%, 1240px);
-    margin: 0.75rem auto 0;
+    height: 100%;
+    margin: 8px auto 0;
     padding: 0 20px;
 
     & > h1 {
@@ -20,7 +22,7 @@
     &-social {
       display: flex;
       font-size: $max-text-size;
-      gap: 2rem;
+      gap: 20px;
 
       & > a {
         &:hover {
@@ -32,4 +34,10 @@
 }
 
 @media (max-width: 921px) {
+  .navbar {
+    display: none;
+  }
+  .header__content-social {
+    display: none;
+  }
 }
