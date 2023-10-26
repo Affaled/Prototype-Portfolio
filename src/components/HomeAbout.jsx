@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import aboutData from "../data/AboutData";
-import SkillsSVG from "./skillsSVG";
+import SkillsSVG from "./SkillsSVG";
 import MoreButton from "./MoreButton";
 
 export default function HomeAbout() {
