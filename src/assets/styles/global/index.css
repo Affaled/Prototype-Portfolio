@@ -522,17 +522,17 @@ a {
   font-family: inherit;
   font-size: 13px;
   font-weight: 600;
-  padding-bottom: 0.25rem;
+  padding-bottom: 4px;
   border: none;
   border-bottom: 1px solid #e4cb86;
-  gap: 1rem;
+  gap: 16px;
   color: inherit;
   background: inherit;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 .moreButton svg {
-  height: 1rem;
+  height: 16px;
   width: -moz-min-content;
   width: min-content;
 }

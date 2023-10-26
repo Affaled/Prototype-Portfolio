@@ -1,17 +1,17 @@
 .moreButton {
   @include flex(row, start, start);
   @include font(inherit, $min-text-size, 600);
-  padding-bottom: 0.25rem;
+  padding-bottom: 4px;
   border: none;
   border-bottom: 1px solid $primary-color;
-  gap: 1rem;
+  gap: 16px;
   color: inherit;
   background: inherit;
   letter-spacing: 2px;
   text-transform: uppercase;
 
   svg {
-    height: 1rem;
+    height: 16px;
     width: min-content;
 
     path {
