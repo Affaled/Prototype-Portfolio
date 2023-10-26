@@ -5,7 +5,7 @@
 
   &__title {
     @include flex(column, start, center);
-    padding: 0 0 56px;
+    padding: 0 0 48px;
 
     & > h1 {
       @include font($secondary-font, $max-title-size, 400);
