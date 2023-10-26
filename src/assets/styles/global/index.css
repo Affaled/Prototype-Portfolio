@@ -264,7 +264,7 @@ a {
 }
 .homeBanner__title > h1 {
   font-family: "Cinzel", serif;
-  font-size: 80px;
+  font-size: 64px;
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 20px;
@@ -364,7 +364,7 @@ a {
 }
 .about > h2 {
   font-family: "Cinzel", serif;
-  font-size: 80px;
+  font-size: 64px;
   font-weight: 400;
   text-transform: capitalize;
 }
@@ -443,7 +443,7 @@ a {
 }
 .projects > h2 {
   font-family: "Cinzel", serif;
-  font-size: 80px;
+  font-size: 64px;
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 96px;
