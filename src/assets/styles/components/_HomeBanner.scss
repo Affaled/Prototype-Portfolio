@@ -10,7 +10,7 @@
     & > h1 {
       @include font($secondary-font, $max-title-size, 400);
       text-transform: capitalize;
-      margin-bottom: 1.25rem;
+      margin-bottom: 20px;
     }
 
     & > a {
