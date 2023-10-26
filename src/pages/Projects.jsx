@@ -7,7 +7,7 @@ const Projects = React.memo(() => {
       <h2>Projects</h2>
       <section className="projects__content">
         <ProjectItem
-          image="/src/assets/images/projects/angular-blog.jpeg"
+          image="../assets/images/projects/angular-blog.jpeg"
           title="Angular blog"
           description="A blog made with Angular"
           url="https://angular-blog-mu-red.vercel.app"

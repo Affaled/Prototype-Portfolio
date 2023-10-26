@@ -7,7 +7,7 @@ export default function HomeProjects() {
       <h3>Projects</h3>
       <div className="homeProjects__content">
         <ProjectItem
-          image="/src/assets/images/projects/angular-blog.jpeg"
+          image="../assets/images/projects/angular-blog.jpeg"
           title="Angular blog"
           description="A blog made with Angular"
           url="https://angular-blog-mu-red.vercel.app"
