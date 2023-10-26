@@ -1,10 +1,23 @@
 .skills {
   @include flex(row, start, start);
   width: 100%;
+  max-width: 100%;
   gap: 12px;
   flex-wrap: wrap;
 
   img {
     width: 56px;
+  }
+}
+
+@media (max-width: 767px) {
+  .skills {
+    @include flex(row, start, center);
+    flex-wrap: nowrap;
+    max-width: 100%;
+
+    img {
+      width: 11.5%;
+    }
   }
 }

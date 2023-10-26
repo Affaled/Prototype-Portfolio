@@ -275,7 +275,7 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding: 0 0 56px;
+  padding: 0 0 48px;
 }
 .homeBanner__title > h1 {
   font-family: "Cinzel", serif;
@@ -316,6 +316,7 @@ a {
   width: 100%;
   max-width: 1024px;
   margin: 96px 0 0;
+  gap: 32px;
 }
 .homeAbout h3 {
   font-family: "Cinzel", serif;
@@ -347,6 +348,19 @@ a {
   margin-top: 28px;
 }
 
+@media (max-width: 921px) {
+  .homeAbout {
+    margin: 64px 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .homeAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+}
 .homeProjects {
   display: flex;
   flex-direction: column;
@@ -531,6 +545,7 @@ a {
   justify-content: start;
   align-items: start;
   width: 100%;
+  max-width: 100%;
   gap: 12px;
   flex-wrap: wrap;
 }
@@ -538,6 +553,19 @@ a {
   width: 56px;
 }
 
+@media (max-width: 767px) {
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 100%;
+  }
+  .skills img {
+    width: 11.5%;
+  }
+}
 .moreButton {
   display: flex;
   flex-direction: row;

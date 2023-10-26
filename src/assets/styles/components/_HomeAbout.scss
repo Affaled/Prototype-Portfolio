@@ -2,6 +2,7 @@
   @include flex(row, space-between, start);
   @include width(0, 100%, 1024px);
   margin: 96px 0 0;
+  gap: 32px;
 
   h3 {
     @include font($secondary-font, $title-size, 400);
@@ -22,5 +23,17 @@
     & > span {
       margin-top: 28px;
     }
+  }
+}
+
+@media (max-width: 921px) {
+  .homeAbout {
+    margin: 64px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .homeAbout {
+    @include flex(column, start, center);
   }
 }
