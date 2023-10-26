@@ -82,12 +82,27 @@ a {
   color: #e4cb86;
   transition: 0.2s;
 }
+.header__content > button {
+  display: none;
+  background: none;
+  border: none;
+}
+.header__content > button > img {
+  height: 40px;
+  width: 40px;
+}
 
 @media (max-width: 921px) {
-  .navbar {
-    display: none;
+  .header {
+    height: 70px;
   }
   .header__content-social {
+    display: none;
+  }
+  .header__content > button {
+    display: block;
+  }
+  .header .navbar {
     display: none;
   }
 }

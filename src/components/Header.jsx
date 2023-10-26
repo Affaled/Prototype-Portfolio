@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import MobileNav from "./MobileNav";
+import svgs from "./svgs";
 
 const Header = React.memo(() => {
   return (
@@ -23,6 +24,9 @@ const Header = React.memo(() => {
             <i className="fab fa-instagram"></i>
           </a>
         </div>
+        <button type="button">
+          <img src={svgs.menu} className="menu" alt="" />
+        </button>
       </div>
     </header>
   );

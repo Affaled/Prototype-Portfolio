@@ -30,14 +30,31 @@
         }
       }
     }
+
+    & > button {
+      display: none;
+      background: none;
+      border: none;
+
+      & > img {
+        height: $title-size;
+        width: $title-size;
+      }
+    }
   }
 }
 
 @media (max-width: 921px) {
-  .navbar {
-    display: none;
-  }
-  .header__content-social {
-    display: none;
+  .header {
+    height: 70px;
+    &__content-social {
+      display: none;
+    }
+    &__content > button {
+      display: block;
+    }
+    .navbar {
+      display: none;
+    }
   }
 }
