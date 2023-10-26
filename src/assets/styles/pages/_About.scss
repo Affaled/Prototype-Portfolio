@@ -1,7 +1,7 @@
 .about {
   @include flex(column, start, center);
   @include width(0, 100%, 1240px);
-  margin: 9rem auto 0;
+  margin: 144px auto 0;
   padding: 0 20px;
 
   & > h2 {
@@ -17,36 +17,36 @@
   &__professional {
     @include flex(row, space-between, start);
     @include width(0, 100%, 1024px);
-    margin: 6rem 0 0;
+    margin: 96px 0 0;
 
     img {
-      @include width(0, 100%, 26rem);
-      @include height(0, 100%, 26rem);
+      @include width(0, 100%, 416px);
+      @include height(0, 100%, 416px);
       margin: auto 0;
       object-fit: cover;
       object-position: center;
-      border-radius: 2rem;
+      border-radius: 32px;
     }
 
     &-text {
       @include flex(column, start, start);
-      @include width(0, 100%, 30rem);
-      gap: 0.75rem;
+      @include width(0, 100%, 480px);
+      gap: 12px;
     }
   }
 
   &__personal {
     @include flex(column, start, start);
-    @include width(0, 100%, 35rem);
-    margin: 6rem 0 0;
-    padding: 0 5rem 0 0;
+    @include width(0, 100%, 560px);
+    margin: 96px 0 0;
+    padding: 0 80px 0 0;
     gap: 1rem;
   }
 
   &__skills {
     @include flex(column, start, start);
-    margin: 6rem 0 0;
-    width: 35rem;
-    gap: 1rem;
+    margin: 96px 0 0;
+    width: 560px;
+    gap: 16px;
   }
 }
