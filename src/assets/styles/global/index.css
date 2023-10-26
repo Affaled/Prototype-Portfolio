@@ -438,7 +438,7 @@ a {
   min-width: 0;
   width: 100%;
   max-width: 1240px;
-  margin: 9rem auto 0;
+  margin: 144px auto 0;
   padding: 0 20px;
 }
 .projects > h2 {
@@ -446,7 +446,7 @@ a {
   font-size: 80px;
   font-weight: 400;
   text-transform: capitalize;
-  margin-bottom: 6rem;
+  margin-bottom: 96px;
 }
 .projects__content {
   display: flex;
@@ -456,7 +456,7 @@ a {
   min-width: 0;
   width: 100%;
   max-width: 1024px;
-  gap: 4rem;
+  gap: 64px;
 }
 
 .projectItem {

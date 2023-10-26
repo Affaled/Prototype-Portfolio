@@ -1,18 +1,18 @@
 .projects {
   @include flex(column, start, center);
   @include width(0, 100%, 1240px);
-  margin: 9rem auto 0;
+  margin: 144px auto 0;
   padding: 0 20px;
 
   & > h2 {
     @include font($secondary-font, $max-title-size, 400);
     text-transform: capitalize;
-    margin-bottom: 6rem;
+    margin-bottom: 96px;
   }
 
   &__content {
     @include flex(column, start, center);
     @include width(0, 100%, 1024px);
-    gap: 4rem;
+    gap: 64px;
   }
 }
