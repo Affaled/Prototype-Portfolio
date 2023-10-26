@@ -1,9 +1,9 @@
 .footer {
   @include flex(column, start, center);
   @include width(0, 100%, 100vw);
-  margin: 6rem 0 0;
+  margin: 96px 0 0;
   border-top: 2px solid rgba($color: $primary-color, $alpha: 0.2);
-  padding: 4rem 20px;
+  padding: 64px 20px;
 
   &__content {
     @include flex(row, space-between, center);
@@ -12,7 +12,7 @@
     &-text {
       @include flex(column, center, start);
       @include width(0, 100%, 220px);
-      gap: 0.5rem;
+      gap: 8px;
 
       & > p > span {
         @include font($primary-font, $text-size, 500);
@@ -29,8 +29,8 @@
       ul {
         @include flex(column, center, center);
         @include font($primary-font, $text-size, 400);
-        height: 4.5rem;
-        gap: 0.5rem;
+        height: 72px;
+        gap: 8px;
         list-style: none;
 
         & > li {
@@ -46,7 +46,7 @@
     &-social {
       @include flex(column, start, start);
       @include width(0, 100%, 220px);
-      gap: 0.25rem;
+      gap: 4px;
 
       & > a {
         @include font($primary-font, $text-size, 500);
@@ -56,7 +56,7 @@
   }
 
   & > p {
-    padding-top: 2rem;
+    padding-top: 32px;
     color: $primary-color;
   }
 }
