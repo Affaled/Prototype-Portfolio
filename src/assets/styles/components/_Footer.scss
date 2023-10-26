@@ -45,7 +45,6 @@
 
     &-social {
       @include flex(column, start, start);
-      @include width(0, 100%, 220px);
       gap: 4px;
 
       & > a {

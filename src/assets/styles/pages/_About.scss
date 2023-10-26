@@ -19,7 +19,7 @@
     @include width(0, 100%, 1024px);
     margin: 96px 0 0;
 
-    img {
+    & > img {
       @include width(0, 100%, 416px);
       @include height(0, 100%, 416px);
       margin: auto 0;
@@ -45,8 +45,49 @@
 
   &__skills {
     @include flex(column, start, start);
+    @include width(0, 100%, 560px);
     margin: 96px 0 0;
-    width: 560px;
     gap: 16px;
+  }
+}
+
+@media (max-width: 921px) {
+  .about {
+    &__professional {
+      @include flex(column, start, center);
+      margin: 64px 0 0;
+
+      & > img {
+        @include width(0, 100%, 100%);
+        @include height(100%, 100%, calc(100vw / 16 * 9));
+      }
+
+      &-text {
+        @include width(0, 100%, 560px);
+        margin: 64px 0 0;
+        padding: 0 80px 0 0;
+      }
+    }
+
+    &__personal {
+      margin: 64px 0 0;
+    }
+
+    &__skills {
+      margin: 64px 0 0;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    &__professional {
+      &-text {
+        padding: 0;
+      }
+    }
+    &__personal {
+      padding: 0;
+    }
   }
 }

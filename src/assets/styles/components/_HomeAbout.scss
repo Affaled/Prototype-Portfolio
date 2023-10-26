@@ -34,6 +34,6 @@
 
 @media (max-width: 767px) {
   .homeAbout {
-    @include flex(column, start, center);
+    @include flex(column, start, start);
   }
 }

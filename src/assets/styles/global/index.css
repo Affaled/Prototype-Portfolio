@@ -233,9 +233,6 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: start;
-  min-width: 0;
-  width: 100%;
-  max-width: 220px;
   gap: 4px;
 }
 .footer__content-social > a {
@@ -369,7 +366,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
+    align-items: start;
   }
 }
 .homeProjects {
@@ -400,6 +397,11 @@ a {
   gap: 32px;
 }
 
+@media (max-width: 921px) {
+  .homeProjects {
+    margin: 64px 0 0;
+  }
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -433,7 +435,7 @@ a {
   max-width: 1024px;
   margin: 96px 0 0;
 }
-.about__professional img {
+.about__professional > img {
   min-width: 0;
   width: 100%;
   max-width: 416px;
@@ -474,11 +476,51 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  min-width: 0;
+  width: 100%;
+  max-width: 560px;
   margin: 96px 0 0;
-  width: 560px;
   gap: 16px;
 }
 
+@media (max-width: 921px) {
+  .about__professional {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 64px 0 0;
+  }
+  .about__professional > img {
+    min-width: 0;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    max-height: 56.25vw;
+  }
+  .about__professional-text {
+    min-width: 0;
+    width: 100%;
+    max-width: 560px;
+    margin: 64px 0 0;
+    padding: 0 80px 0 0;
+  }
+  .about__personal {
+    margin: 64px 0 0;
+  }
+  .about__skills {
+    margin: 64px 0 0;
+  }
+}
+@media (max-width: 600px) {
+  .about__professional-text {
+    padding: 0;
+  }
+  .about__personal {
+    padding: 0;
+  }
+}
 .projects {
   display: flex;
   flex-direction: column;
@@ -508,6 +550,11 @@ a {
   gap: 64px;
 }
 
+@media (max-width: 921px) {
+  .projects > h2 {
+    margin: 0 0 64px;
+  }
+}
 .projectItem {
   display: flex;
   flex-direction: row;
