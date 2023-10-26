@@ -1,5 +1,5 @@
 import React from "react";
-import SkillsSVG from "../components/skillsSVG";
+import SkillsSVG from "../components/SkillsSVG";
 import aboutText from "../data/AboutData";
 import affaledPhoto from "../assets/images/affaled-photo.jpg";
 
