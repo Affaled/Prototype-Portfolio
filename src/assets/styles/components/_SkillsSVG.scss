@@ -1,10 +1,10 @@
 .skills {
   @include flex(row, start, start);
   width: 100%;
-  gap: 0.75rem;
+  gap: 12px;
   flex-wrap: wrap;
 
   img {
-    width: 3.5rem;
+    width: 56px;
   }
 }
