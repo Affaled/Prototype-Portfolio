@@ -249,6 +249,17 @@ a {
   color: #e4cb86;
 }
 
+@media (max-width: 767px) {
+  .footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer nav {
+    display: none;
+  }
+}
 .home {
   display: flex;
   flex-direction: column;

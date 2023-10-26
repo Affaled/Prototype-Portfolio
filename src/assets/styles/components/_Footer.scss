@@ -60,3 +60,14 @@
     color: $primary-color;
   }
 }
+
+@media (max-width: 767px) {
+  .footer {
+    &__content {
+      @include flex(row, space-around, center);
+    }
+    nav {
+      display: none;
+    }
+  }
+}
