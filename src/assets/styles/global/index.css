@@ -279,8 +279,9 @@ a {
 }
 .homeBanner__title > h1 {
   font-family: "Cinzel", serif;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 400;
+  text-align: center;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
@@ -298,6 +299,14 @@ a {
   transition: 0.2s;
 }
 
+@media (max-width: 767px) {
+  .homeBanner {
+    height: 612px;
+  }
+  .homeBanner__title {
+    padding: 0 0 24px;
+  }
+}
 .homeAbout {
   display: flex;
   flex-direction: row;
@@ -379,7 +388,7 @@ a {
 }
 .about > h2 {
   font-family: "Cinzel", serif;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 400;
   text-transform: capitalize;
 }
@@ -458,7 +467,7 @@ a {
 }
 .projects > h2 {
   font-family: "Cinzel", serif;
-  font-size: 64px;
+  font-size: 60px;
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 96px;

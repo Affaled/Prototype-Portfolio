@@ -9,6 +9,7 @@
 
     & > h1 {
       @include font($secondary-font, $max-title-size, 400);
+      text-align: center;
       text-transform: capitalize;
       margin-bottom: 20px;
     }
@@ -24,6 +25,16 @@
           @include hoverAnimation($primary-color);
         }
       }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .homeBanner {
+    height: 612px;
+
+    &__title {
+      padding: 0 0 24px;
     }
   }
 }
