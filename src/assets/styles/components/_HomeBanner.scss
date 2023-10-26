@@ -13,14 +13,16 @@
       margin-bottom: 1.25rem;
     }
 
-    & > a > p {
-      @include font(inherit, $min-text-size, 600);
-      text-transform: uppercase;
-      letter-spacing: 2px;
+    & > a {
+      & > p {
+        @include font(inherit, $min-text-size, 600);
+        text-transform: uppercase;
+        letter-spacing: 2px;
 
-      &:hover {
-        cursor: pointer;
-        @include hoverAnimation($primary-color);
+        &:hover {
+          cursor: pointer;
+          @include hoverAnimation($primary-color);
+        }
       }
     }
   }
