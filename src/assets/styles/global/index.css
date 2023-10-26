@@ -260,23 +260,23 @@ a {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding: 0 0 3.25rem;
+  padding: 0 0 56px;
 }
-.homeBanner__title h1 {
+.homeBanner__title > h1 {
   font-family: "Cinzel", serif;
   font-size: 80px;
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 1.25rem;
 }
-.homeBanner__title p {
+.homeBanner__title > a > p {
   font-family: inherit;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.homeBanner__title p:hover {
+.homeBanner__title > a > p:hover {
   cursor: pointer;
   cursor: pointer;
   color: #e4cb86;
@@ -291,7 +291,7 @@ a {
   min-width: 0;
   width: 100%;
   max-width: 1024px;
-  margin: 6rem 0 0;
+  margin: 96px 0 0;
 }
 .homeAbout h3 {
   font-family: "Cinzel", serif;
@@ -306,8 +306,8 @@ a {
   align-items: start;
   min-width: 0;
   width: 100%;
-  max-width: 30rem;
-  gap: 1rem;
+  max-width: 480px;
+  gap: 16px;
 }
 .homeAbout__text {
   display: flex;
@@ -316,11 +316,11 @@ a {
   align-items: start;
   min-width: 400px;
   width: 100%;
-  max-width: 30rem;
-  gap: 1rem;
+  max-width: 480px;
+  gap: 16px;
 }
 .homeAbout__text > span {
-  margin-top: 1.75rem;
+  margin-top: 28px;
 }
 
 .homeProjects {
@@ -348,7 +348,7 @@ a {
   min-width: 0;
   width: 100%;
   max-width: 1024px;
-  gap: 2rem;
+  gap: 32px;
 }
 
 .about {
@@ -464,17 +464,15 @@ a {
   flex-direction: row;
   justify-content: start;
   align-items: start;
-  min-width: 0;
   width: 100%;
-  max-width: 1200px;
-  gap: 1rem;
+  gap: 16px;
 }
-.projectItem img {
-  width: 24rem;
-  height: 13.5rem;
+.projectItem > img {
+  width: 384px;
+  height: 216px;
   background-color: #e4cb86;
   color: #000;
-  border-radius: 0.5rem;
+  border-radius: 8px;
   border: 1px solid #e4cb86;
   -o-object-fit: cover;
      object-fit: cover;
@@ -486,20 +484,20 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  height: 13.5rem;
-  width: 24rem;
-  padding-bottom: 1rem;
+  height: 216px;
+  width: 384px;
+  padding-bottom: 16px;
 }
-.projectItem__text h3 {
+.projectItem__text > div > h3 {
   font-family: "Cinzel", serif;
   font-size: 40px;
   font-weight: 400;
   color: #e4cb86;
   text-transform: capitalize;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px;
 }
-.projectItem__text p {
-  max-height: 4.75rem;
+.projectItem__text > div > p {
+  max-height: 76px;
   overflow: hidden;
 }
 
