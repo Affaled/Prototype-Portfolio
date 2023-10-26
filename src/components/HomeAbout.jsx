@@ -6,7 +6,7 @@ import MoreButton from "./MoreButton";
 
 export default function HomeAbout() {
   return (
-    <section className="homeAbout">
+    <section className="homeAbout" id="bio">
       <div className="homeAbout__skills">
         <h3>Skills</h3>
         <SkillsSVG />

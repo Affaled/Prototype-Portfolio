@@ -5,7 +5,9 @@ export default function HomeBanner() {
     <section className="homeBanner">
       <div className="homeBanner__title">
         <h1>Front-end developer</h1>
-        <p>Scroll down</p>
+        <a href="#bio">
+          <p>Scroll down</p>
+        </a>
       </div>
     </section>
   );

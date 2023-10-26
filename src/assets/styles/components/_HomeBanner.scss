@@ -5,15 +5,15 @@
 
   &__title {
     @include flex(column, start, center);
-    padding: 0 0 3.25rem;
+    padding: 0 0 56px;
 
-    h1 {
+    & > h1 {
       @include font($secondary-font, $max-title-size, 400);
       text-transform: capitalize;
       margin-bottom: 1.25rem;
     }
 
-    p {
+    & > a > p {
       @include font(inherit, $min-text-size, 600);
       text-transform: uppercase;
       letter-spacing: 2px;
