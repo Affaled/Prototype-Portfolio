@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectItem from "../components/ProjectItem";
+import angularPhoto from "../assets/images/projects/angular-blog.jpeg";
 
 const Projects = React.memo(() => {
   return (
@@ -7,7 +8,7 @@ const Projects = React.memo(() => {
       <h2>Projects</h2>
       <section className="projects__content">
         <ProjectItem
-          image="../assets/images/projects/angular-blog.jpeg"
+          image={angularPhoto}
           title="Angular blog"
           description="A blog made with Angular"
           url="https://angular-blog-mu-red.vercel.app"
