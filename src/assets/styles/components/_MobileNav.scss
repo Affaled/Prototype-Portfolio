@@ -1,11 +1,13 @@
 .mobileNav {
   display: none;
+
   & > ul {
     @include flex(column, start, start);
     @include position(absolute, 78px, none, none, 0);
     @include font(inherit, $min-text-size, 600);
     @include width(0, 100%, 100vw);
     padding: 0 20px;
+    background-color: $background-color;
 
     list-style: none;
 

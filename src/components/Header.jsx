@@ -4,6 +4,11 @@ import Navbar from "./Navbar";
 import MobileNav from "./MobileNav";
 import svgs from "./svgs";
 
+const showMenu = () => {
+  const menu = document.querySelector(".mobileNav");
+  menu.classList.toggle("active");
+};
+
 const Header = React.memo(() => {
   return (
     <header className="header">
@@ -24,7 +29,7 @@ const Header = React.memo(() => {
             <i className="fab fa-instagram"></i>
           </a>
         </div>
-        <button type="button">
+        <button type="button" onClick={showMenu}>
           <img src={svgs.menu} className="menu" alt="" />
         </button>
       </div>

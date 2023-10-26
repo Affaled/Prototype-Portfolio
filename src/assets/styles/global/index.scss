@@ -60,3 +60,7 @@ a {
 @import "../components/ProjectItem";
 @import "../components/SkillsSVG";
 @import "../components/MoreButton";
+
+.active {
+  display: block;
+}
