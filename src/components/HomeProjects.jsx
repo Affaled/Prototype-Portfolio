@@ -5,7 +5,7 @@ import angularPhoto from "../assets/images/projects/angular-blog.jpeg";
 export default function HomeProjects() {
   return (
     <section className="homeProjects">
-      <h3>Projects</h3>
+      <h2>Projects</h2>
       <div className="homeProjects__content">
         <ProjectItem
           image={angularPhoto}

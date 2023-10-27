@@ -8,11 +8,11 @@ export default function HomeAbout() {
   return (
     <section className="homeAbout" id="bio">
       <div className="homeAbout__skills">
-        <h3>Skills</h3>
+        <h2>Skills</h2>
         <SkillsSVG />
       </div>
       <div className="homeAbout__text">
-        <h3>About</h3>
+        <h2>About</h2>
         <p>{aboutData.personalInfo[0]}</p>
         <p>{aboutData.professionalInfo[2]}</p>
         <span>
