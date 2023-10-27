@@ -19,13 +19,22 @@ const Header = React.memo(() => {
         <Navbar />
         <MobileNav />
         <div className="header__content-social">
-          <a href="https://www.linkedin.com/in/lucas-affaled" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/lucas-affaled"
+            target="_blank"
+            aria-label="to acess my linkedin">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="https://github.com/Affaled" target="_blank">
+          <a
+            href="https://github.com/Affaled"
+            target="_blank"
+            aria-label="to acess my github">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://www.instagram.com/affaled.dev/" target="_blank">
+          <a
+            href="https://www.instagram.com/affaled.dev/"
+            target="_blank"
+            aria-label="to acess my instagram">
             <i className="fab fa-instagram"></i>
           </a>
         </div>
