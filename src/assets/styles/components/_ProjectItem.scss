@@ -3,7 +3,7 @@
   width: 100%;
   gap: 16px;
 
-  & > img {
+  &__image {
     width: 384px;
     height: 216px;
     background-color: $primary-color;
@@ -38,11 +38,12 @@
 
 @media (max-width: 767px) {
   .projectItem {
-    @include flex(column, start, start);
+    @include flex(column, start, center);
+    @include width(0, 100%, 480px);
 
-    & > img {
+    &__image {
       width: 100%;
-      height: calc(100vw / 16 * 9);
+      height: 270px;
     }
 
     &__text {

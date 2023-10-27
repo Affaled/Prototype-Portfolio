@@ -21,3 +21,18 @@
     margin: 64px 0 0;
   }
 }
+
+@media (max-width: 767px) {
+  .homeProjects {
+    @include flex(column, start, center);
+
+    & > h3 {
+      @include width(0, 100%, 480px);
+    }
+
+    &__content {
+      @include flex(column, start, start);
+      @include width(0, 100%, 480px);
+    }
+  }
+}
