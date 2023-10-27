@@ -17,7 +17,7 @@ export default function HomeAbout() {
         <p>{aboutData.professionalInfo[2]}</p>
         <span>
           <Link to="/about">
-            <MoreButton text="Learn more" />
+            <MoreButton text="Full biography" />
           </Link>
         </span>
       </div>
