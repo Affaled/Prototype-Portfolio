@@ -1,7 +1,7 @@
 .homeAbout {
   @include flex(row, space-between, start);
   @include width(0, 100%, 1024px);
-  margin: 96px 0 0;
+  padding: 96px 0 0;
   gap: 32px;
 
   h3 {
@@ -28,7 +28,7 @@
 
 @media (max-width: 921px) {
   .homeAbout {
-    margin: 64px 0 0;
+    padding: 64px 0 0;
   }
 }
 
