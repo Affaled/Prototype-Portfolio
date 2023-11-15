@@ -327,10 +327,11 @@ a {
   padding: 96px 0 0;
   gap: 32px;
 }
-.homeAbout h3 {
+.homeAbout h2 {
   font-family: "Cinzel", serif;
   font-size: 40px;
   font-weight: 400;
+  font-size: 32px;
   text-transform: capitalize;
 }
 .homeAbout__skills {
@@ -381,10 +382,11 @@ a {
   margin: 96px 0 0;
   gap: 16px;
 }
-.homeProjects > h3 {
+.homeProjects > h2 {
   font-family: "Cinzel", serif;
   font-size: 40px;
   font-weight: 400;
+  font-size: 32px;
   text-transform: capitalize;
 }
 .homeProjects__content {
@@ -613,6 +615,7 @@ a {
   font-size: 40px;
   font-weight: 400;
   color: #e4cb86;
+  font-size: 32px;
   text-transform: capitalize;
   margin-bottom: 8px;
 }

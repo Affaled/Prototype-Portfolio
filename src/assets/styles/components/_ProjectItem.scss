@@ -24,6 +24,7 @@
       & > h3 {
         @include font($secondary-font, $title-size, 400);
         color: $primary-color;
+        font-size: 32px;
         text-transform: capitalize;
         margin-bottom: 8px;
       }
