@@ -358,11 +358,6 @@ a {
   margin-top: 28px;
 }
 
-@media (max-width: 921px) {
-  .homeAbout {
-    padding: 64px 0 0;
-  }
-}
 @media (max-width: 767px) {
   .homeAbout {
     display: flex;
@@ -386,6 +381,10 @@ a {
   font-family: "Cinzel", serif;
   font-size: 40px;
   font-weight: 400;
+  min-width: 0;
+  width: 100%;
+  max-width: 480px;
+  text-align: start;
   font-size: 32px;
   text-transform: capitalize;
 }
@@ -400,11 +399,6 @@ a {
   gap: 32px;
 }
 
-@media (max-width: 921px) {
-  .homeProjects {
-    margin: 64px 0 0;
-  }
-}
 @media (max-width: 767px) {
   .homeProjects {
     display: flex;
