@@ -13,11 +13,11 @@
 @media (max-width: 767px) {
   .skills {
     @include flex(row, start, center);
+    @include width(0, 100%, 100%);
     flex-wrap: nowrap;
-    max-width: 100%;
 
     img {
-      width: 11.5%;
+      @include width(0, 100%, 56px);
     }
   }
 }

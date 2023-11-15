@@ -664,11 +664,15 @@ a {
     flex-direction: row;
     justify-content: start;
     align-items: center;
-    flex-wrap: nowrap;
+    min-width: 0;
+    width: 100%;
     max-width: 100%;
+    flex-wrap: nowrap;
   }
   .skills img {
-    width: 11.5%;
+    min-width: 0;
+    width: 100%;
+    max-width: 56px;
   }
 }
 .moreButton {
