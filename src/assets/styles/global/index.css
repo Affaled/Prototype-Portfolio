@@ -362,7 +362,7 @@ a {
   font-weight: 400;
   min-width: 0;
   width: 100%;
-  max-width: 480px;
+  max-width: 440px;
   text-align: start;
   font-size: 32px;
   text-transform: capitalize;
@@ -388,7 +388,7 @@ a {
   .homeProjects > h3 {
     min-width: 0;
     width: 100%;
-    max-width: 480px;
+    max-width: 440px;
   }
   .homeProjects__content {
     display: flex;
@@ -397,7 +397,7 @@ a {
     align-items: start;
     min-width: 0;
     width: 100%;
-    max-width: 480px;
+    max-width: 440px;
   }
 }
 .about {
@@ -635,7 +635,7 @@ a {
     align-items: center;
     min-width: 0;
     width: 100%;
-    max-width: 480px;
+    max-width: 440px;
   }
   .projectItem__image {
     width: 100%;

@@ -6,7 +6,7 @@
 
   & > h2 {
     @include font($secondary-font, $title-size, 400);
-    @include width(0, 100%, 480px);
+    @include width(0, 100%, 440px);
     text-align: start;
     font-size: 32px;
     text-transform: capitalize;
@@ -24,12 +24,12 @@
     @include flex(column, start, center);
 
     & > h3 {
-      @include width(0, 100%, 480px);
+      @include width(0, 100%, 440px);
     }
 
     &__content {
       @include flex(column, start, start);
-      @include width(0, 100%, 480px);
+      @include width(0, 100%, 440px);
     }
   }
 }

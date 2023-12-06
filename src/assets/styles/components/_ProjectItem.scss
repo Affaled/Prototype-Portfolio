@@ -59,7 +59,7 @@
 @media (max-width: 767px) {
   .projectItem {
     @include flex(column, start, center);
-    @include width(0, 100%, 480px);
+    @include width(0, 100%, 440px);
 
     &__image {
       width: 100%;
