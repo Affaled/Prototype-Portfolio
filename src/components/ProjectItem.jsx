@@ -1,26 +1,34 @@
 import React from "react";
 import MoreButton from "./MoreButton";
 
-const ProjectItem = React.memo(({ image, title, description, url }) => {
-  return (
-    <div className="projectItem">
-      <img
-        class="projectItem__image"
-        id="ProjectItemIMG"
-        src={image}
-        alt="Project Photo"
-      />
-      <div className="projectItem__text">
-        <div>
-          <h3>{title}</h3>
-          <p>{description}</p>
+const ProjectItem = React.memo(
+  ({ desktopImage, mobileImage, title, description, url }) => {
+    return (
+      <div className="projectItem">
+        <div classname="projectItem__image">
+          <img
+            className="projectItem__image-desktop"
+            src={desktopImage}
+            alt="Project desktop image"
+          />
+          <img
+            className="projectItem__image-mobile"
+            src={mobileImage}
+            alt="Project mobile image"
+          />
         </div>
-        <a href={url} target="_blank">
-          <MoreButton text="View project" />
-        </a>
+        <div className="projectItem__text">
+          <div>
+            <h3>{title}</h3>
+            <p>{description}</p>
+          </div>
+          <a href={url} target="_blank">
+            <MoreButton text="View project" />
+          </a>
+        </div>
       </div>
-    </div>
-  );
-});
+    );
+  }
+);
 
 export default ProjectItem;
