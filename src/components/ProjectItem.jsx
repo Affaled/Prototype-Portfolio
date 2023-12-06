@@ -5,7 +5,7 @@ const ProjectItem = React.memo(
   ({ desktopImage, mobileImage, title, description, url }) => {
     return (
       <div className="projectItem">
-        <div classname="projectItem__image">
+        <div className="projectItem__image">
           <img
             className="projectItem__image-desktop"
             src={desktopImage}

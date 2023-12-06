@@ -4,14 +4,33 @@
   gap: 16px;
 
   &__image {
-    width: 384px;
-    height: 216px;
-    background-color: $primary-color;
-    color: $background-color;
-    border-radius: 8px;
-    border: 1px solid $primary-color;
-    object-fit: cover;
-    object-position: top;
+    @include flex(row, start, start);
+    position: relative;
+    @include width(440, 100%, 440px);
+    @include height(300px, 100%, 300px);
+
+    &-desktop {
+      width: 400px;
+      height: 225px;
+      background-color: $primary-color;
+      color: $background-color;
+      border-radius: 8px;
+      border: 1px solid $primary-color;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    &-mobile {
+      @include position(absolute, none, 0, 0, none);
+      width: 108px;
+      height: 240px;
+      background-color: $primary-color;
+      color: $background-color;
+      border-radius: 8px;
+      border: 1px solid $primary-color;
+      object-fit: cover;
+      object-position: top;
+    }
   }
 
   &__text {
