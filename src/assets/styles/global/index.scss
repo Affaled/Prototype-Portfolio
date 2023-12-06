@@ -4,15 +4,14 @@
 @import "../utils/variables";
 
 :root {
-  width: 100vw;
-  min-width: 100vw;
+  width: calc(100vw - 6px);
+  min-width: calc(100vw - 6px);
   font-family: $primary-font;
   background-color: $background-color;
   color: $text-color;
 
   &::-webkit-scrollbar {
     width: 6px;
-    display: none;
   }
 
   &::-webkit-scrollbar-thumb {
