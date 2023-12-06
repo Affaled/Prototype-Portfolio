@@ -6,16 +6,18 @@ const ProjectItem = React.memo(
     return (
       <div className="projectItem">
         <div className="projectItem__image">
-          <img
-            className="projectItem__image-desktop"
-            src={desktopImage}
-            alt="Project desktop image"
-          />
-          <img
-            className="projectItem__image-mobile"
-            src={mobileImage}
-            alt="Project mobile image"
-          />
+          <a href={url} target="_blank">
+            <img
+              className="projectItem__image-desktop"
+              src={desktopImage}
+              alt="Project desktop image"
+            />
+            <img
+              className="projectItem__image-mobile"
+              src={mobileImage}
+              alt="Project mobile image"
+            />
+          </a>
         </div>
         <div className="projectItem__text">
           <div>
