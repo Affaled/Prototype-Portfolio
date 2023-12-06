@@ -13,19 +13,6 @@ export default function Footer() {
             Design by WPAstra
           </a>
         </div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-          </ul>
-        </nav>
         <div className="footer__content-social">
           <a href="https://www.linkedin.com/in/lucas-affaled" target="_blank">
             LinkedIn

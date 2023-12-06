@@ -6,7 +6,7 @@
   padding: 64px 20px;
 
   &__content {
-    @include flex(row, space-between, center);
+    @include flex(row, space-evenly, center);
     @include width(0, 100%, 1024px);
 
     &-text {
@@ -22,24 +22,6 @@
       & > a {
         @include font($primary-font, $text-size, 500);
         color: $primary-color;
-      }
-    }
-
-    & > nav {
-      ul {
-        @include flex(column, center, center);
-        @include font($primary-font, $text-size, 400);
-        height: 72px;
-        gap: 8px;
-        list-style: none;
-
-        & > li {
-          text-transform: uppercase;
-
-          &:hover {
-            @include hoverAnimation($primary-color);
-          }
-        }
       }
     }
 
